@@ -1,0 +1,1088 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+
+/* HEADER */
+.custom-header {
+  background-color: #4a8c9c;
+}
+
+.logo {
+  padding-left: 20px;
+  height: 60px;
+}
+
+.nav-link {
+  font-family: coolvetica rg;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: rgb(207, 130, 14);
+}
+
+
+
+
+/* MAIN INDEX*/
+/* (Fuentes para titulos y parrafos del index) */
+@font-face {
+  font-family: Designer;
+  src: url(../font/Designer.otf);
+}
+@font-face {
+  font-family: coolvetica rg;
+  src: url(../font/coolvetica\ rg.otf);
+}
+@font-face {
+  font-family: Forque;
+  src: url(../font/Forque.ttf);
+}
+.seccion-1-para-que {
+  display: flex;
+  justify-content: center;
+  background-color: #cdffff;
+}
+
+.seccion-1-h1-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.seccion-1-parrafo {
+  width: 60%;
+}
+
+.seccion-1-foto {
+  height: 300px;
+  padding-right: 40px;
+}
+
+.seccion-2-mejores-goleadores {
+  background-color: #cdffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.seccion-2-h2 {
+  font-family: Forque;
+  display: flex;
+  justify-content: center;
+}
+
+.cristiano-foto,
+  .messi-foto,
+  .bican-foto,
+  .pele-foto,
+  .romario-foto,
+  .muller-foto,
+  .puskas-foto,
+  .jones-foto,
+  .lewan-foto,
+  .eusebio-foto{
+    height: 700px;
+  }
+
+  
+  
+  .seccion-3-h2 {
+    font-size: 40px;
+    display: flex;
+    font-family: Forque;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    background-color: #cdffff;
+  }
+  
+  .grilla {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    }
+
+
+
+.seccion-3-mejores-ventas {
+  background-color: #cdffff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.cartas-alineacion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cartas-ventas {
+  width: 150px;
+  height: auto;
+  background-color: #ffffff;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  
+}
+
+/* Estilos para el hover */
+.cartas-ventas:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para la imagen */
+.cartas-ventas .foto-ventas {
+  max-width: 100%;
+  height: 100%;
+  filter: blur(0); /* Sin desenfoque por defecto */
+  transition: filter 0.3s ease-in-out;
+}
+
+.cartas-ventas:hover .foto-ventas {
+  filter: blur(4px); /* Ajusta la cantidad de desenfoque que prefieras */
+}
+
+/* Estilos para el texto */
+.texto-ventas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80%;
+  opacity: 0; /* Texto oculto por defecto */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.cartas-ventas:hover .texto-ventas {
+  opacity: 1;
+}
+
+.seccion-4-quien-deberia{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cdffff;
+}
+
+.seccion-4-h2{
+  font-size: 40px;
+  display: flex;
+  font-family: Forque;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  padding-bottom: 10px;
+  background-color: #cdffff;
+}
+
+.seccion-4-foto-p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seccion-4-foto{
+  width: 80%;
+  display: flex;
+}
+
+.seccion-4-p-messi, 
+.seccion-4-p-mbappe,
+.seccion-4-p-haaland{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+  font-family: coolvetica rg;
+  font-size: 23px;
+  padding-top: 30px;
+  text-align: justify;
+  
+}
+
+/* FOOTER */
+.footer {
+  background-color: rgb(50, 49, 49);
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.footer-copyright {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-icon-img {
+  width: 80px;
+}
+
+.footer-social {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-social-link {
+  margin-left: 10px;
+  width: 40px;
+}
+
+
+/* PAGINA PREMIER LEAGUE */
+.sectionmain-premierleague {
+  background-image: url(../img/Backgrounds/background\ premier\ league.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.seccion-equipos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.secciontitulos-premierleague {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.equipo {
+  width: 300px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.equipos-premier {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.equipos-premier img {
+  width: 100%;
+  background-color: cyan;
+}
+
+/* IMAGENES FONDO LOGOS PREMIER LEAGUE */
+.imagen-equipo .logos-equipos-totten {
+  background-color: rgb(175, 171, 171);
+}
+
+.imagen-equipo .logos-equipos-liverpool {
+  background-color: rgb(236, 57, 57);
+}
+
+.imagen-equipo .logos-equipos-westham {
+  background-color: rgb(88, 34, 99);
+}
+
+.imagen-equipo .logos-equipos-arsenal {
+  background-color: brown;
+}
+
+.imagen-equipo .logos-equipos-brighton {
+  background-color: #3e6e81;
+}
+
+.imagen-equipo .logos-equipos-crys {
+  background-color: rgb(9, 21, 185);
+}
+
+.imagen-equipo .logos-equipos-brent {
+  background-color: red;
+}
+
+.imagen-equipo .logos-equipos-notti {
+  background-color: rgb(121, 25, 25);
+}
+
+.imagen-equipo .logos-equipos-aston {
+  background-color: rgb(73, 33, 28);
+}
+
+.imagen-equipo .logos-equipos-manu {
+  background-color: rgb(248, 87, 87);
+}
+
+.imagen-equipo .logos-equipos-chelsea {
+  background-color: rgb(6, 6, 136);
+}
+
+.imagen-equipo .logos-equipos-full {
+  background-color: rgb(116, 79, 79);
+}
+
+.imagen-equipo .logos-equipos-new {
+  background-color: rgb(190, 190, 190);
+}
+
+.imagen-equipo .logos-equipos-wolves {
+  background-color: rgb(177, 130, 2);
+}
+
+.imagen-equipo .logos-equipos-bourn {
+  background-color: rgb(116, 0, 0);
+}
+
+.imagen-equipo .logos-equipos-sheff {
+  background-color: red;
+}
+
+.imagen-equipo .logos-equipos-everton {
+  background-color: blue;
+}
+
+.imagen-equipo .logos-equipos-luton {
+  background-color: rgb(28, 77, 28);
+}
+
+.imagen-equipo .logos-equipos-burnley {
+  background-color: rgb(7, 110, 110);
+}
+
+.texto-equipo {
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+.ganados-hover:hover {
+  color: rgb(9, 235, 9);
+}
+
+.empatados-hover:hover {
+  color: orange;
+}
+
+.perdidos-hover:hover {
+  color: red;
+}
+
+/* SEGUNDA PAGINA COPA DE LA LIGA */
+.sectionmain-copadelaliga {
+  background-image: url(/img/Backgrounds/backgroundcopadelaliga.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.seccion-equipos-copadelaliga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.secciontitulos-copadelaliga {
+  font-size: 15px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.grupo-b {
+  display: flex;
+  justify-content: center;
+}
+
+.equipo-copadelaliga {
+  width: 300px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.equipos-copadelaliga {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.equipos-copadelaliga img {
+  width: 100%;
+  background-color: rgb(78, 80, 80);
+}
+
+/* IMAGENES LOGOS COPA DE LA LIGA */
+/* Grupo A */
+.imagen-equipo-copadelaliga .logos-equipos-huracan {
+  background-color: rgb(243, 159, 159);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-banfield {
+  background-color: rgb(22, 190, 36);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-colon {
+  background-color: rgb(83, 16, 21);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-velez {
+  background-color: rgb(56, 108, 138);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-indep {
+  background-color: red;
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-argj {
+  background-color: rgb(219, 87, 87);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-instituto {
+  background-color: rgb(255, 216, 216);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-rosario {
+  background-color: rgba(252, 224, 70, 0.993);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-river {
+  background-color: rgb(255, 0, 0);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-tucuman {
+  background-color: rgb(146, 224, 250);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-sarandi {
+  background-color: rgb(59, 115, 129);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-barracas {
+  background-color: rgb(216, 94, 94);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-gim {
+  background-color: rgb(19, 19, 97);
+}
+
+/* Grupo B */
+.imagen-equipo-copadelaliga .logos-equipos-newe {
+  background-color: rgb(156, 1, 1);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-sarmiento {
+  background-color: rgb(1, 83, 1);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-racing {
+  background-color: rgb(33, 175, 241);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-union {
+  background-color: rgb(230, 0, 0);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-belgr {
+  background-color: rgb(84, 146, 170);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-godoy {
+  background-color: rgb(61, 61, 163);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-sanlo {
+  background-color: rgb(109, 0, 0);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-boca {
+  background-color: rgb(0, 0, 255);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-defensa {
+  background-color: rgb(145, 192, 51);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-ccordoba {
+  background-color: rgb(1, 1, 43);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-tigre {
+  background-color: rgb(165, 0, 0);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-lanus {
+  background-color: rgb(87, 3, 3);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-platense {
+  background-color: rgb(88, 53, 0);
+}
+
+.imagen-equipo-copadelaliga .logos-equipos-est {
+  background-color: rgb(248, 148, 148);
+}
+
+.texto-equipo-copadelaliga {
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: white;
+}
+
+/* TERCERA PAGINA DE LA SERIE A */
+.sectionmain-seriea {
+  height: auto;
+  background-image: url(/img/Backgrounds/background\ serie\ a.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.seccion-equipos-seriea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.secciontitulos-seriea {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.equipo-seriea {
+  width: 300px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.equipos-seriea {
+  width: auto;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.equipos-seriea img {
+  width: 100%;
+}
+
+/* IMAGENES LOGOS SERIE A*/
+.imagen-equipo-seriea .logos-equipos-inter {
+  background-color: rgb(0, 0, 255);
+}
+
+.imagen-equipo-seriea .logos-equipos-milan {
+  background-color: rgb(241, 0, 0);
+}
+
+.imagen-equipo-seriea .logos-equipos-juventus {
+  background-color: rgb(73, 68, 68);
+}
+
+.imagen-equipo-seriea .logos-equipos-lecce {
+  background-color: rgb(67, 116, 180);
+}
+
+.imagen-equipo-seriea .logos-equipos-atalanta {
+  background-color: rgb(0, 0, 0);
+}
+
+.imagen-equipo-seriea .logos-equipos-napoli {
+  background-color: rgb(43, 145, 240);
+}
+
+.imagen-equipo-seriea .logos-equipos-verona {
+  background-color: rgb(0, 0, 0);
+}
+
+.imagen-equipo-seriea .logos-equipos-fioren {
+  background-color: rgb(112, 29, 112);
+}
+
+.imagen-equipo-seriea .logos-equipos-bolonia {
+  background-color: rgb(207, 2, 2);
+}
+
+.imagen-equipo-seriea .logos-equipos-frosino {
+  background-color: rgb(91, 91, 204);
+}
+
+.imagen-equipo-seriea .logos-equipos-torino {
+  background-color: rgb(116, 5, 5);
+}
+
+.imagen-equipo-seriea .logos-equipos-lazio {
+  background-color: rgb(141, 214, 214);
+}
+
+.imagen-equipo-seriea .logos-equipos-sassuo {
+  background-color: rgb(8, 97, 8);
+}
+
+.imagen-equipo-seriea .logos-equipos-genoa {
+  background-color: rgb(245, 63, 63);
+}
+
+.imagen-equipo-seriea .logos-equipos-monza {
+  background-color: rgb(216, 6, 6);
+}
+
+.imagen-equipo-seriea .logos-equipos-salerni {
+  background-color: rgb(88, 3, 3);
+}
+
+.imagen-equipo-seriea .logos-equipos-udinese {
+  background-color: rgb(41, 29, 29);
+}
+
+.imagen-equipo-seriea .logos-equipos-roma {
+  background-color: rgb(99, 42, 42);
+}
+
+.imagen-equipo-seriea .logos-equipos-caglia {
+  background-color: rgb(45, 45, 134);
+}
+
+.imagen-equipo-seriea .logos-equipos-empoli {
+  background-color: rgb(112, 202, 231);
+}
+
+.texto-equipo-seriea {
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: white;
+}
+
+/* CUARTA PAGINA LA LIGA */
+.sectionmain-laliga {
+  height: auto;
+  background-image: url(/img/Backgrounds/background\ laliga.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.seccion-equipos-laliga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.secciontitulos-laliga {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.equipo-laliga {
+  width: 300px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.equipos-laliga {
+  width: auto;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.equipos-laliga img {
+  width: 100%;
+  background-color: rgb(173, 173, 173);
+}
+
+/* IMAGENES LOGOS LA LIGA */
+.imagen-equipo-laliga .logos-equipos-madrid {
+  background-color: rgb(219, 218, 218);
+}
+
+.imagen-equipo-laliga .logos-equipos-girona {
+  background-color: rgb(199, 165, 72);
+}
+
+.imagen-equipo-laliga .logos-equipos-barcelona {
+  background-color: rgb(83, 22, 22);
+}
+
+.imagen-equipo-laliga .logos-equipos-atlmadrid {
+  background-color: rgb(255, 61, 61);
+}
+
+.imagen-equipo-laliga .logos-equipos-atlbilbao {
+  background-color: rgb(34, 4, 4);
+}
+
+.imagen-equipo-laliga .logos-equipos-cadiz {
+  background-color: rgb(255, 255, 0);
+}
+
+.imagen-equipo-laliga .logos-equipos-betis {
+  background-color: rgb(9, 185, 9);
+}
+
+.imagen-equipo-laliga .logos-equipos-sociedad {
+  background-color: rgb(0, 78, 247);
+}
+
+.imagen-equipo-laliga .logos-equipos-osasuna {
+  background-color: rgb(145, 0, 0);
+}
+
+.imagen-equipo-laliga .logos-equipos-alaves {
+  background-color: rgb(84, 84, 247);
+}
+
+.imagen-equipo-laliga .logos-equipos-valencia {
+  background-color: rgb(238, 98, 5);
+}
+
+.imagen-equipo-laliga .logos-equipos-rayo {
+  background-color: rgb(241, 107, 107);
+}
+
+.imagen-equipo-laliga .logos-equipos-celta {
+  background-color: rgb(93, 180, 202);
+}
+
+.imagen-equipo-laliga .logos-equipos-getafe {
+  background-color: rgb(33, 33, 238);
+}
+
+.imagen-equipo-laliga .logos-equipos-villarreal {
+  background-color: rgb(243, 243, 5);
+}
+
+.imagen-equipo-laliga .logos-equipos-granada {
+  background-color: rgb(255, 49, 49);
+}
+
+.imagen-equipo-laliga .logos-equipos-mallo {
+  background-color: rgb(226, 63, 4);
+}
+
+.imagen-equipo-laliga .logos-equipos-palmas {
+  background-color: rgb(248, 248, 0);
+}
+
+.imagen-equipo-laliga .logos-equipos-almeria {
+  background-color: rgb(236, 92, 92);
+}
+
+.imagen-equipo-laliga .logos-equipos-sevilla {
+  background-color: rgb(196, 46, 0);
+}
+
+.texto-equipo-laliga {
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: white;
+}
+
+/* RESPONSIVE DE CELULAR */
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .seccion-1-para-que {
+    display: flex;
+    justify-content: center;
+    background-color: #cdffff;
+    flex-direction: column;
+  }
+  
+  .seccion-1-h1-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .seccion-1-parrafo {
+    width: 100%;
+  }
+  
+  .seccion-1-foto {
+    height: 50%;
+    padding-right: 0px;
+
+  }
+  
+  .seccion-2-mejores-goleadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cristiano-foto,
+  .messi-foto,
+  .bican-foto,
+  .pele-foto,
+  .romario-foto,
+  .muller-foto,
+  .puskas-foto,
+  .jones-foto,
+  .lewan-foto,
+  .eusebio-foto {
+    height: 250px;
+  }
+
+  .seccion-3-h2{
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .cartas-ventas {
+    width: 60px;
+  }
+
+  .texto-ventas{
+    font-size: 9px;
+    padding: 0px;
+  }
+
+  
+  .seccion-4-quien-deberia {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .seccion-4-h2 {
+    font-size: 20px;
+  }
+
+  .seccion-4-foto-p {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .seccion-4-foto {
+    max-width: 100%;
+    height: 80%;
+    padding: 10px 0;
+  }
+
+  main .seccion-4-p-messi,
+  .seccion-4-p-mbappe,
+  .seccion-4-p-haaland {
+    column-count: 1;
+    padding-top: 20px;
+    justify-content: center;
+    font-size: 14px;
+    text-align: center;
+  }
+
+
+  main section .columnas-parrafos {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  main section .equipos-premier {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  main section .equipos-copadelaliga {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  main section .equipos-seriea {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  main section .equipos-laliga {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  main section .secciontitulos {
+    font-size: 15px;
+    display: flex;
+    padding-top: 160px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991px){
+
+  .seccion-1-para-que {
+    display: flex;
+    justify-content: center;
+    background-color: #cdffff;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .seccion-1-h1-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .seccion-1-parrafo {
+    width: 100%;
+  }
+  
+  .seccion-1-foto {
+    height: auto;
+    width: 400px;
+    padding-right: 0px;
+    
+  }
+
+  .seccion-2-h2{
+    font-size: 30px;
+    padding: 20px;
+  }
+  
+  .seccion-2-mejores-goleadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cristiano-foto,
+  .messi-foto,
+  .bican-foto,
+  .pele-foto,
+  .romario-foto,
+  .muller-foto,
+  .puskas-foto,
+  .jones-foto,
+  .lewan-foto,
+  .eusebio-foto{
+    height: 400px;
+  }
+
+  .seccion-3-h2{
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  .cartas-ventas {
+    width: 90px;
+  }
+
+  .seccion-4-quien-deberia{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .seccion-4-h2{
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  .seccion-4-foto-p{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .seccion-4-foto{
+    max-width: 100%;
+    height: 80%;
+    padding: 10px 0;
+  }
+
+  main .seccion-4-p-messi,
+  .seccion-4-p-mbappe,
+  .seccion-4-p-haaland {
+    column-count: 1;
+    padding-top: 20px;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  main section .columnas-parrafos{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+@media (min-width: 1024px){
+
+}
+
+/*# sourceMappingURL=style.css.map */
+
