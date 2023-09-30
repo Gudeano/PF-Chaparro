@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-
 /* HEADER */
 .custom-header {
   background-color: #4a8c9c;
@@ -25,23 +24,23 @@
   color: rgb(207, 130, 14);
 }
 
-
-
-
 /* MAIN INDEX*/
 /* (Fuentes para titulos y parrafos del index) */
 @font-face {
   font-family: Designer;
   src: url(../font/Designer.otf);
 }
+
 @font-face {
   font-family: coolvetica rg;
   src: url(../font/coolvetica\ rg.otf);
 }
+
 @font-face {
   font-family: Forque;
   src: url(../font/Forque.ttf);
 }
+
 .seccion-1-para-que {
   display: flex;
   justify-content: center;
@@ -81,40 +80,36 @@
 }
 
 .cristiano-foto,
-  .messi-foto,
-  .bican-foto,
-  .pele-foto,
-  .romario-foto,
-  .muller-foto,
-  .puskas-foto,
-  .jones-foto,
-  .lewan-foto,
-  .eusebio-foto{
-    height: 700px;
-  }
+.messi-foto,
+.bican-foto,
+.pele-foto,
+.romario-foto,
+.muller-foto,
+.puskas-foto,
+.jones-foto,
+.lewan-foto,
+.eusebio-foto {
+  height: 700px;
+}
 
-  
-  
-  .seccion-3-h2 {
-    font-size: 40px;
-    display: flex;
-    font-family: Forque;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    margin: auto;
-    background-color: #cdffff;
-  }
-  
-  .grilla {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, auto);
-    gap: 10px;
-    }
+.seccion-3-h2 {
+  font-size: 40px;
+  display: flex;
+  font-family: Forque;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  background-color: #cdffff;
+}
 
-
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+}
 
 .seccion-3-mejores-ventas {
   background-color: #cdffff;
@@ -139,27 +134,24 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
-  
+
 }
 
-/* Estilos para el hover */
 .cartas-ventas:hover {
   transform: scale(1.05);
 }
 
-/* Estilos para la imagen */
 .cartas-ventas .foto-ventas {
   max-width: 100%;
   height: 100%;
-  filter: blur(0); /* Sin desenfoque por defecto */
+  filter: blur(0);
   transition: filter 0.3s ease-in-out;
 }
 
 .cartas-ventas:hover .foto-ventas {
-  filter: blur(4px); /* Ajusta la cantidad de desenfoque que prefieras */
+  filter: blur(4px);
 }
 
-/* Estilos para el texto */
 .texto-ventas {
   position: absolute;
   top: 50%;
@@ -170,7 +162,7 @@
   padding: 10px;
   border-radius: 5px;
   width: 80%;
-  opacity: 0; /* Texto oculto por defecto */
+  opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -178,7 +170,7 @@
   opacity: 1;
 }
 
-.seccion-4-quien-deberia{
+.seccion-4-quien-deberia {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -186,7 +178,7 @@
   background-color: #cdffff;
 }
 
-.seccion-4-h2{
+.seccion-4-h2 {
   font-size: 40px;
   display: flex;
   font-family: Forque;
@@ -199,20 +191,20 @@
   background-color: #cdffff;
 }
 
-.seccion-4-foto-p{
+.seccion-4-foto-p {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.seccion-4-foto{
+.seccion-4-foto {
   width: 80%;
   display: flex;
 }
 
-.seccion-4-p-messi, 
+.seccion-4-p-messi,
 .seccion-4-p-mbappe,
-.seccion-4-p-haaland{
+.seccion-4-p-haaland {
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -221,7 +213,6 @@
   font-size: 23px;
   padding-top: 30px;
   text-align: justify;
-  
 }
 
 /* FOOTER */
@@ -238,7 +229,6 @@
   margin: 0px;
   display: flex;
   justify-content: center;
-  
 }
 
 .footer-icon {
@@ -263,7 +253,6 @@
   margin-left: 10px;
   width: 40px;
 }
-
 
 /* PAGINA PREMIER LEAGUE */
 .sectionmain-premierleague {
@@ -310,6 +299,7 @@
 }
 
 /* IMAGENES FONDO LOGOS PREMIER LEAGUE */
+
 .imagen-equipo .logos-equipos-totten {
   background-color: rgb(175, 171, 171);
 }
@@ -405,6 +395,7 @@
 }
 
 /* SEGUNDA PAGINA COPA DE LA LIGA */
+
 .sectionmain-copadelaliga {
   background-image: url(/img/Backgrounds/backgroundcopadelaliga.jpg);
   background-position: center;
@@ -851,7 +842,7 @@
     background-color: #cdffff;
     flex-direction: column;
   }
-  
+
   .seccion-1-h1-p {
     display: flex;
     flex-direction: column;
@@ -859,17 +850,17 @@
     text-align: center;
     justify-content: center;
   }
-  
+
   .seccion-1-parrafo {
     width: 100%;
   }
-  
+
   .seccion-1-foto {
     height: 50%;
     padding-right: 0px;
 
   }
-  
+
   .seccion-2-mejores-goleadores {
     display: flex;
     flex-direction: column;
@@ -891,7 +882,7 @@
     height: 250px;
   }
 
-  .seccion-3-h2{
+  .seccion-3-h2 {
     font-size: 20px;
     padding: 10px;
   }
@@ -900,17 +891,18 @@
     width: 60px;
   }
 
-  .texto-ventas{
+  .texto-ventas {
     font-size: 9px;
     padding: 0px;
   }
 
-  
+
   .seccion-4-quien-deberia {
     align-items: center;
     display: flex;
     flex-direction: column;
   }
+
   .seccion-4-h2 {
     font-size: 20px;
   }
@@ -941,14 +933,15 @@
     display: flex;
     flex-direction: column;
   }
-  
-  
+
+
   main section .equipos-premier {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
   }
+
   main section .equipos-copadelaliga {
     flex-wrap: wrap;
     width: 100%;
@@ -976,7 +969,7 @@
   }
 }
 
-@media (min-width: 576px) and (max-width: 991px){
+@media (min-width: 576px) and (max-width: 991px) {
 
   .seccion-1-para-que {
     display: flex;
@@ -985,7 +978,7 @@
     flex-direction: column;
     align-items: center;
   }
-  
+
   .seccion-1-h1-p {
     display: flex;
     flex-direction: column;
@@ -993,23 +986,23 @@
     text-align: center;
     justify-content: center;
   }
-  
+
   .seccion-1-parrafo {
     width: 100%;
   }
-  
+
   .seccion-1-foto {
     height: auto;
     width: 400px;
     padding-right: 0px;
-    
+
   }
 
-  .seccion-2-h2{
+  .seccion-2-h2 {
     font-size: 30px;
     padding: 20px;
   }
-  
+
   .seccion-2-mejores-goleadores {
     display: flex;
     flex-direction: column;
@@ -1027,11 +1020,11 @@
   .puskas-foto,
   .jones-foto,
   .lewan-foto,
-  .eusebio-foto{
+  .eusebio-foto {
     height: 400px;
   }
 
-  .seccion-3-h2{
+  .seccion-3-h2 {
     font-size: 30px;
     padding: 20px;
   }
@@ -1040,23 +1033,23 @@
     width: 90px;
   }
 
-  .seccion-4-quien-deberia{
+  .seccion-4-quien-deberia {
     align-items: center;
     display: flex;
     flex-direction: column;
   }
 
-  .seccion-4-h2{
+  .seccion-4-h2 {
     font-size: 30px;
     padding: 20px;
   }
 
-  .seccion-4-foto-p{
+  .seccion-4-foto-p {
     display: flex;
     flex-direction: column;
   }
 
-  .seccion-4-foto{
+  .seccion-4-foto {
     max-width: 100%;
     height: 80%;
     padding: 10px 0;
@@ -1073,16 +1066,11 @@
   }
 
 
-  main section .columnas-parrafos{
+  main section .columnas-parrafos {
     display: flex;
     flex-direction: column;
   }
 
 }
 
-@media (min-width: 1024px){
-
-}
-
 /*# sourceMappingURL=style.css.map */
-
