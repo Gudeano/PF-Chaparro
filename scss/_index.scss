@@ -105,4 +105,45 @@ main{
             }
         }
     }
+    .seccion-4-quien-deberia {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: #cdffff;
+        .seccion-4-h2 {
+            font-size: 40px;
+            display: flex;
+            font-family: Forque;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            margin: auto;
+            padding-bottom: 10px;
+            background-color: #cdffff;
+        }
+        .seccion-4-foto-p {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .seccion-4-foto {
+                width: 80%;
+                display: flex;
+            }
+            .columnas-parrafos{
+                .seccion-4-p-messi, .seccion-4-p-mbappe, .seccion-4-p-haaland {
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            padding-left: 8px;
+            font-family: coolvetica rg;
+            font-size: 23px;
+            padding-top: 30px;
+            text-align: justify;
+                }
+            }
+        }
+    }
 }
+

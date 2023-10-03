@@ -1,0 +1,34 @@
+footer{
+    .footer {
+        background-color: rgb(50, 49, 49);
+        align-items: center;
+        padding: 10px;
+        justify-content: space-between;
+        .footer-copyright {
+            color: rgb(255, 255, 255);
+            font-size: 14px;
+            margin: 0px;
+            display: flex;
+            justify-content: center;
+        }
+        .footer-icon {
+            display: flex;
+            justify-content: center;
+            margin: 0px;
+            padding: 0px;
+            .footer-icon-img {
+                width: 80px;
+            }
+        }
+        .footer-social {
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+            .footer-social-link {
+                margin-left: 10px;
+                width: 40px;
+            }
+        }
+    }
+}

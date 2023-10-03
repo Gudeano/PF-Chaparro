@@ -133,16 +133,14 @@ main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 }
-
-.seccion-4-quien-deberia {
+main .seccion-4-quien-deberia {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   background-color: #cdffff;
 }
-
-.seccion-4-h2 {
+main .seccion-4-quien-deberia .seccion-4-h2 {
   font-size: 40px;
   display: flex;
   font-family: Forque;
@@ -154,21 +152,16 @@ main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-
   padding-bottom: 10px;
   background-color: #cdffff;
 }
-
-.seccion-4-foto-p {
+main .seccion-4-quien-deberia .seccion-4-foto-p {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.seccion-4-foto {
+main .seccion-4-quien-deberia .seccion-4-foto-p .seccion-4-foto {
   width: 80%;
   display: flex;
 }
-
-.seccion-4-p-messi,
-.seccion-4-p-mbappe,
-.seccion-4-p-haaland {
+main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-mbappe, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-haaland {
   justify-content: center;
   display: flex;
   flex-direction: column;
@@ -179,41 +172,35 @@ main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-
   text-align: justify;
 }
 
-/* FOOTER */
-.footer {
+footer .footer {
   background-color: rgb(50, 49, 49);
   align-items: center;
   padding: 10px;
   justify-content: space-between;
 }
-
-.footer-copyright {
+footer .footer .footer-copyright {
   color: rgb(255, 255, 255);
   font-size: 14px;
   margin: 0px;
   display: flex;
   justify-content: center;
 }
-
-.footer-icon {
+footer .footer .footer-icon {
   display: flex;
   justify-content: center;
   margin: 0px;
   padding: 0px;
 }
-
-.footer-icon-img {
+footer .footer .footer-icon .footer-icon-img {
   width: 80px;
 }
-
-.footer-social {
+footer .footer .footer-social {
   margin: 0px;
   padding: 0px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
-
-.footer-social-link {
+footer .footer .footer-social .footer-social-link {
   margin-left: 10px;
   width: 40px;
 }
