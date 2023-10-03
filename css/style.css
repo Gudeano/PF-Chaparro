@@ -5,66 +5,52 @@
   box-sizing: border-box;
 }
 
-/* HEADER */
-.custom-header {
-  background-color: #4a8c9c;
-}
-
-.logo {
-  padding-left: 20px;
-  height: 60px;
-}
-
-.nav-link {
-  font-family: coolvetica rg;
-  font-size: 20px;
-}
-
-.nav-link:hover {
-  color: rgb(207, 130, 14);
-}
-
-/* MAIN INDEX*/
-/* (Fuentes para titulos y parrafos del index) */
 @font-face {
   font-family: Designer;
   src: url(../font/Designer.otf);
 }
-
 @font-face {
   font-family: coolvetica rg;
   src: url(../font/coolvetica\ rg.otf);
 }
-
 @font-face {
   font-family: Forque;
   src: url(../font/Forque.ttf);
 }
+header .custom-header {
+  background-color: #4a8c9c;
+}
+header .custom-header .logo {
+  padding-left: 20px;
+  height: 60px;
+}
+header .custom-header .menu .nav-link {
+  font-family: coolvetica rg;
+}
+header .custom-header .menu .nav-link:hover {
+  color: rgb(207, 130, 14);
+}
 
-.seccion-1-para-que {
+main .seccion-1-para-que {
   display: flex;
   justify-content: center;
   background-color: #cdffff;
 }
-
-.seccion-1-h1-p {
+main .seccion-1-para-que .seccion-1-h1-p {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: center;
 }
-
-.seccion-1-parrafo {
+main .seccion-1-para-que .seccion-1-h1-p .seccion-1-parrafo {
   width: 60%;
 }
-
-.seccion-1-foto {
+main .seccion-1-para-que .seccion-1-foto {
   height: 300px;
   padding-right: 40px;
 }
-
-.seccion-2-mejores-goleadores {
+main .seccion-2-mejores-goleadores {
   background-color: #cdffff;
   display: flex;
   flex-direction: column;
@@ -72,27 +58,15 @@
   align-items: center;
   text-align: center;
 }
-
-.seccion-2-h2 {
+main .seccion-2-mejores-goleadores .seccion-2-h2 {
   font-family: Forque;
   display: flex;
   justify-content: center;
 }
-
-.cristiano-foto,
-.messi-foto,
-.bican-foto,
-.pele-foto,
-.romario-foto,
-.muller-foto,
-.puskas-foto,
-.jones-foto,
-.lewan-foto,
-.eusebio-foto {
+main .seccion-2-mejores-goleadores .cristiano-foto, main .seccion-2-mejores-goleadores .messi-foto, main .seccion-2-mejores-goleadores .bican-foto, main .seccion-2-mejores-goleadores .pele-foto, main .seccion-2-mejores-goleadores .romario-foto, main .seccion-2-mejores-goleadores .muller-foto, main .seccion-2-mejores-goleadores .puskas-foto, main .seccion-2-mejores-goleadores .jones-foto, main .seccion-2-mejores-goleadores .lewan-foto, main .seccion-2-mejores-goleadores .eusebio-foto {
   height: 700px;
 }
-
-.seccion-3-h2 {
+main .seccion-3-cartas .seccion-3-h2 {
   font-size: 40px;
   display: flex;
   font-family: Forque;
@@ -103,29 +77,25 @@
   margin: auto;
   background-color: #cdffff;
 }
-
-.grilla {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, auto);
-  gap: 10px;
-}
-
-.seccion-3-mejores-ventas {
+main .seccion-3-cartas .div-3-mejores-ventas {
   background-color: #cdffff;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
 }
-
-.cartas-alineacion {
+main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
-.cartas-ventas {
+main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+}
+main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-ventas {
   width: 150px;
   height: auto;
   background-color: #ffffff;
@@ -134,25 +104,23 @@
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
-
 }
-
-.cartas-ventas:hover {
-  transform: scale(1.05);
+main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-ventas:hover .texto-ventas {
+  opacity: 1;
 }
-
-.cartas-ventas .foto-ventas {
+main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-ventas .foto-ventas {
   max-width: 100%;
   height: 100%;
   filter: blur(0);
   transition: filter 0.3s ease-in-out;
 }
-
-.cartas-ventas:hover .foto-ventas {
+main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-ventas:hover {
+  transform: scale(1.05);
+}
+main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-ventas:hover .foto-ventas {
   filter: blur(4px);
 }
-
-.texto-ventas {
+main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-ventas .texto-ventas {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -164,10 +132,6 @@
   width: 80%;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-}
-
-.cartas-ventas:hover .texto-ventas {
-  opacity: 1;
 }
 
 .seccion-4-quien-deberia {
@@ -299,7 +263,6 @@
 }
 
 /* IMAGENES FONDO LOGOS PREMIER LEAGUE */
-
 .imagen-equipo .logos-equipos-totten {
   background-color: rgb(175, 171, 171);
 }
@@ -395,7 +358,6 @@
 }
 
 /* SEGUNDA PAGINA COPA DE LA LIGA */
-
 .sectionmain-copadelaliga {
   background-image: url(/img/Backgrounds/backgroundcopadelaliga.jpg);
   background-position: center;
@@ -835,14 +797,12 @@
 
 /* RESPONSIVE DE CELULAR */
 @media (min-width: 320px) and (max-width: 480px) {
-
   .seccion-1-para-que {
     display: flex;
     justify-content: center;
     background-color: #cdffff;
     flex-direction: column;
   }
-
   .seccion-1-h1-p {
     display: flex;
     flex-direction: column;
@@ -850,17 +810,13 @@
     text-align: center;
     justify-content: center;
   }
-
   .seccion-1-parrafo {
     width: 100%;
   }
-
   .seccion-1-foto {
     height: 50%;
     padding-right: 0px;
-
   }
-
   .seccion-2-mejores-goleadores {
     display: flex;
     flex-direction: column;
@@ -868,7 +824,6 @@
     align-items: center;
     text-align: center;
   }
-
   .cristiano-foto,
   .messi-foto,
   .bican-foto,
@@ -881,43 +836,34 @@
   .eusebio-foto {
     height: 250px;
   }
-
   .seccion-3-h2 {
     font-size: 20px;
     padding: 10px;
   }
-
   .cartas-ventas {
     width: 60px;
   }
-
   .texto-ventas {
     font-size: 9px;
     padding: 0px;
   }
-
-
   .seccion-4-quien-deberia {
     align-items: center;
     display: flex;
     flex-direction: column;
   }
-
   .seccion-4-h2 {
     font-size: 20px;
   }
-
   .seccion-4-foto-p {
     display: flex;
     flex-direction: column;
   }
-
   .seccion-4-foto {
     max-width: 100%;
     height: 80%;
     padding: 10px 0;
   }
-
   main .seccion-4-p-messi,
   .seccion-4-p-mbappe,
   .seccion-4-p-haaland {
@@ -927,39 +873,31 @@
     font-size: 14px;
     text-align: center;
   }
-
-
   main section .columnas-parrafos {
     display: flex;
     flex-direction: column;
   }
-
-
   main section .equipos-premier {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
   }
-
   main section .equipos-copadelaliga {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
   }
-
   main section .equipos-seriea {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
   }
-
   main section .equipos-laliga {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
   }
-
   main section .secciontitulos {
     font-size: 15px;
     display: flex;
@@ -968,9 +906,7 @@
     text-align: center;
   }
 }
-
 @media (min-width: 576px) and (max-width: 991px) {
-
   .seccion-1-para-que {
     display: flex;
     justify-content: center;
@@ -978,7 +914,6 @@
     flex-direction: column;
     align-items: center;
   }
-
   .seccion-1-h1-p {
     display: flex;
     flex-direction: column;
@@ -986,23 +921,18 @@
     text-align: center;
     justify-content: center;
   }
-
   .seccion-1-parrafo {
     width: 100%;
   }
-
   .seccion-1-foto {
     height: auto;
     width: 400px;
     padding-right: 0px;
-
   }
-
   .seccion-2-h2 {
     font-size: 30px;
     padding: 20px;
   }
-
   .seccion-2-mejores-goleadores {
     display: flex;
     flex-direction: column;
@@ -1010,7 +940,6 @@
     align-items: center;
     text-align: center;
   }
-
   .cristiano-foto,
   .messi-foto,
   .bican-foto,
@@ -1023,38 +952,31 @@
   .eusebio-foto {
     height: 400px;
   }
-
   .seccion-3-h2 {
     font-size: 30px;
     padding: 20px;
   }
-
   .cartas-ventas {
     width: 90px;
   }
-
   .seccion-4-quien-deberia {
     align-items: center;
     display: flex;
     flex-direction: column;
   }
-
   .seccion-4-h2 {
     font-size: 30px;
     padding: 20px;
   }
-
   .seccion-4-foto-p {
     display: flex;
     flex-direction: column;
   }
-
   .seccion-4-foto {
     max-width: 100%;
     height: 80%;
     padding: 10px 0;
   }
-
   main .seccion-4-p-messi,
   .seccion-4-p-mbappe,
   .seccion-4-p-haaland {
@@ -1064,13 +986,10 @@
     font-size: 20px;
     text-align: center;
   }
-
-
   main section .columnas-parrafos {
     display: flex;
     flex-direction: column;
   }
-
 }
 
 /*# sourceMappingURL=style.css.map */

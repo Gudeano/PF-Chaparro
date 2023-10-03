@@ -1,0 +1,17 @@
+header{
+    .custom-header{
+        background-color: #4a8c9c;
+        .logo{
+            padding-left: 20px;
+            height: 60px
+        }
+        .menu{
+            .nav-link {
+                font-family: coolvetica rg ;
+                &:hover{
+                    color: rgb(207, 130, 14);
+                }
+            }
+        }
+    }
+}
