@@ -44,10 +44,12 @@ main .seccion-1-para-que .seccion-1-h1-p {
   justify-content: center;
 }
 main .seccion-1-para-que .seccion-1-h1-p .seccion-1-parrafo {
-  width: 90%;
+  width: 900px;
+  font-size: 20px;
+  padding-top: 10px;
 }
 main .seccion-1-para-que .seccion-1-h1-p .seccion-1-foto {
-  height: 300px;
+  height: 600px;
 }
 main .seccion-2-mejores-goleadores {
   background-color: #cdffff;
