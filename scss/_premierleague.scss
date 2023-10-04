@@ -1,0 +1,123 @@
+main{
+    .sectionmain-premierleague {
+        background-image: url(../img/Backgrounds/background\ premier\ league.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        .secciontitulos-premierleague {
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+            .h1-premierleague {
+                font-size: 30px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+        }
+        .seccion-equipos-premierleague {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            .equipos-premier {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                img{
+                    width: 100%;
+                }
+                .equipo {
+                    width: 300px;
+                    box-shadow: 0 0 20px rgb(0, 0, 0);
+                    border-radius: 5px;
+                    background-color: rgb(255, 255, 255);
+                    border: 2px solid black;
+                    margin: 20px;
+                    .imagen-equipo{
+                        .logos-equipos-city{
+                            background-color: cyan;
+                        }
+                        .logos-equipos-totten {
+                            background-color: rgb(175, 171, 171);
+                        }
+                        .logos-equipos-liverpool {
+                            background-color: rgb(236, 57, 57);
+                        }
+                        .logos-equipos-westham {
+                            background-color: rgb(88, 34, 99);
+                        }
+                        .logos-equipos-arsenal {
+                            background-color: brown;
+                        }
+                        .logos-equipos-brighton {
+                            background-color: #3e6e81;
+                        }
+                        .logos-equipos-crys {
+                            background-color: rgb(9, 21, 185);
+                        }
+                        .logos-equipos-brent {
+                            background-color: red;
+                        }
+                        .logos-equipos-notti {
+                            background-color: rgb(121, 25, 25);
+                        }
+                        .logos-equipos-aston {
+                            background-color: rgb(73, 33, 28);
+                        }
+                        .logos-equipos-manu {
+                            background-color: rgb(248, 87, 87);
+                        }
+                        .logos-equipos-chelsea {
+                            background-color: rgb(6, 6, 136);
+                        }
+                        .logos-equipos-full {
+                            background-color: rgb(116, 79, 79);
+                        }
+                        .logos-equipos-new {
+                            background-color: rgb(190, 190, 190);
+                        }
+                        .logos-equipos-wolves {
+                            background-color: rgb(177, 130, 2);
+                        }
+                        .logos-equipos-bourn {
+                            background-color: rgb(116, 0, 0);
+                        }
+                        .logos-equipos-sheff {
+                            background-color: red;
+                        }
+                        .logos-equipos-everton {
+                            background-color: blue;
+                        }
+                        .logos-equipos-luton {
+                            background-color: rgb(28, 77, 28);
+                        }
+                        .logos-equipos-burnley {
+                            background-color: rgb(7, 110, 110);
+                        }
+                    }
+                    .texto-equipo {
+                        text-align: center;
+                        border: 1px solid rgb(255, 255, 255);
+                        background-color: rgb(255, 255, 255);
+                        .ganados-hover{
+                            &:hover{
+                                color: rgb(9, 235, 9);
+                            }
+                        }
+                        .empatados-hover{
+                            &:hover{
+                                color: orange;
+                            }
+                        }
+                        .perdidos-hover{
+                            &:hover{
+                                color: red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

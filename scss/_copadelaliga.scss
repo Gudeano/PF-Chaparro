@@ -1,0 +1,133 @@
+main{
+    .sectionmain-copadelaliga {
+        background-image: url(../img/Backgrounds/backgroundcopadelaliga.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        .secciontitulos-copadelaliga {
+            font-size: 15px;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .equipos-copadelaliga {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            width: 100%;
+            flex-wrap: wrap;
+            height: auto;
+            img{
+                width: 100%;
+            }
+            .equipo-copadelaliga {
+                width: 300px;
+                box-shadow: 0 0 20px rgb(0, 0, 0);
+                border-radius: 5px;
+                background-color: rgb(255, 255, 255);
+                border: 2px solid black;
+                margin: 20px;
+                .texto-equipo-copadelaliga {
+                    text-align: center;
+                    border: 1px solid rgb(255, 255, 255);
+                    background-color: white;
+                }
+                .imagen-equipo-copadelaliga{
+                    .logos-equipos-talleres{
+                        background-color: gray;
+                    }
+                    .logos-equipos-huracan {
+                        background-color: rgb(243, 159, 159);
+                    }
+                    .logos-equipos-banfield {
+                        background-color: rgb(22, 190, 36);
+                    }
+                    .logos-equipos-colon {
+                        background-color: rgb(83, 16, 21);
+                    }
+                    .logos-equipos-velez {
+                        background-color: rgb(56, 108, 138);
+                    }
+                    .logos-equipos-indep {
+                        background-color: red;
+                    }
+                    .logos-equipos-argj {
+                        background-color: rgb(219, 87, 87);
+                    }
+                    .logos-equipos-instituto {
+                        background-color: rgb(255, 216, 216);
+                    }
+                    .logos-equipos-rosario {
+                        background-color: rgba(252, 224, 70, 0.993);
+                    }
+                    .logos-equipos-river {
+                        background-color: rgb(255, 0, 0);
+                    }
+                    .logos-equipos-tucuman {
+                        background-color: rgb(146, 224, 250);
+                    }
+                    .logos-equipos-sarandi {
+                        background-color: rgb(59, 115, 129);
+                    }
+                    .logos-equipos-barracas {
+                        background-color: rgb(216, 94, 94);
+                    }
+                    .logos-equipos-gim {
+                        background-color: rgb(19, 19, 97);
+                    }
+                      /* Grupo B */
+                    .logos-equipos-newe {
+                        background-color: rgb(156, 1, 1);
+                    }
+                    .logos-equipos-sarmiento {
+                        background-color: rgb(1, 83, 1);
+                    }
+                    .logos-equipos-racing {
+                        background-color: rgb(33, 175, 241);
+                    }
+                    .logos-equipos-union {
+                        background-color: rgb(230, 0, 0);
+                    }
+                    .logos-equipos-belgr {
+                        background-color: rgb(84, 146, 170);
+                    }
+                    .logos-equipos-godoy {
+                        background-color: rgb(61, 61, 163);
+                    }
+                    .logos-equipos-sanlo {
+                        background-color: rgb(109, 0, 0);
+                    }
+                    .logos-equipos-boca {
+                        background-color: rgb(0, 0, 255);
+                    }
+                    .logos-equipos-defensa {
+                        background-color: rgb(145, 192, 51);
+                    }
+                    .logos-equipos-ccordoba {
+                        background-color: rgb(1, 1, 43);
+                    }
+                    .logos-equipos-tigre {
+                        background-color: rgb(165, 0, 0);
+                    }
+                    .logos-equipos-lanus {
+                        background-color: rgb(87, 3, 3);
+                    }
+                    .logos-equipos-platense {
+                        background-color: rgb(88, 53, 0);
+                    }
+                    .logos-equipos-est {
+                        background-color: rgb(248, 148, 148);
+                    }
+                }
+            }
+            .grupo-b {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+

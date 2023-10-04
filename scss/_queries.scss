@@ -90,14 +90,20 @@
     }
   }
 }
-  
-  
-    main section .equipos-premier {
+
+  .sectionmain-premierleague{
+    .secciontitulos-premierleague{
+      .h1-premierleague{
+      font-size: 15px;
       display: flex;
-      flex-wrap: wrap;
-      width: 100%;
       justify-content: center;
+      text-align: center;
+      }
     }
+  }
+  
+  
+    
   
     main section .equipos-copadelaliga {
       flex-wrap: wrap;
