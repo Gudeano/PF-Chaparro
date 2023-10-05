@@ -1,0 +1,123 @@
+main{
+    .sectionmain-seriea {
+        background-image: url(../img/Backgrounds/background\ serie\ a.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        .secciontitulos {
+            display: flex;
+            justify-content: center;
+            padding-top: 30px;
+            .h1-seriea {
+                font-size: 30px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+        }
+        .seccion-equipos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            .equipos {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                img{
+                    width: 100%;
+                }
+                .equipo {
+                    width: 300px;
+                    box-shadow: 0 0 20px rgb(0, 0, 0);
+                    border-radius: 5px;
+                    background-color: rgb(255, 255, 255);
+                    border: 2px solid black;
+                    margin: 20px;
+                    .imagen-equipo{
+                        .logos-equipos-inter {
+                            background-color: rgb(0, 0, 255);
+                        }
+                        .logos-equipos-milan {
+                            background-color: rgb(241, 0, 0);
+                        }
+                        .logos-equipos-juventus {
+                            background-color: rgb(73, 68, 68);
+                        }
+                        .logos-equipos-lecce {
+                            background-color: rgb(67, 116, 180);
+                        }
+                        .logos-equipos-atalanta {
+                            background-color: rgb(0, 0, 0);
+                        }
+                        .logos-equipos-napoli {
+                            background-color: rgb(43, 145, 240);
+                        }
+                        .logos-equipos-verona {
+                            background-color: rgb(0, 0, 0);
+                        }
+                        .logos-equipos-fioren {
+                            background-color: rgb(112, 29, 112);
+                        }
+                        .logos-equipos-bolonia {
+                            background-color: rgb(207, 2, 2);
+                        }
+                        .logos-equipos-frosino {
+                            background-color: rgb(91, 91, 204);
+                        }
+                        .logos-equipos-torino {
+                            background-color: rgb(116, 5, 5);
+                        }
+                        .logos-equipos-lazio {
+                            background-color: rgb(141, 214, 214);
+                        }
+                        .logos-equipos-sassuo {
+                            background-color: rgb(8, 97, 8);
+                        }
+                        .logos-equipos-genoa {
+                            background-color: rgb(245, 63, 63);
+                        }
+                        .logos-equipos-monza {
+                            background-color: rgb(216, 6, 6);
+                        }
+                        .logos-equipos-salerni {
+                            background-color: rgb(88, 3, 3);
+                        }
+                        .logos-equipos-udinese {
+                            background-color: rgb(41, 29, 29);
+                        }
+                        .logos-equipos-roma {
+                            background-color: rgb(99, 42, 42);
+                        }
+                        .logos-equipos-caglia {
+                            background-color: rgb(45, 45, 134);
+                        }
+                        .logos-equipos-empoli {
+                            background-color: rgb(112, 202, 231);
+                        }
+                    }
+                .texto-equipo {
+                        text-align: center;
+                        border: 1px solid rgb(255, 255, 255);
+                        background-color: rgb(255, 255, 255);
+                        .ganados-hover{
+                            &:hover{
+                                color: rgb(9, 235, 9);
+                            }
+                        }
+                        .empatados-hover{
+                            &:hover{
+                                color: orange;
+                            }
+                        }
+                        .perdidos-hover{
+                            &:hover{
+                                color: red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

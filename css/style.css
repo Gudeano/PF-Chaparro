@@ -530,11 +530,16 @@ main .sectionmain-copadelaliga {
   width: 100%;
 }
 main .sectionmain-copadelaliga .secciontitulos-copadelaliga {
-  font-size: 15px;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   padding-top: 10px;
+}
+main .sectionmain-copadelaliga .secciontitulos-copadelaliga .h1-copadelaliga {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+main .sectionmain-copadelaliga .secciontitulos-copadelaliga .h1-copadelaliga .h2-copadelaliga {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 main .sectionmain-copadelaliga .equipos-copadelaliga {
   display: flex;
@@ -648,37 +653,43 @@ main .sectionmain-copadelaliga .equipos-copadelaliga .equipo-copadelaliga .image
 main .sectionmain-copadelaliga .equipos-copadelaliga .equipo-copadelaliga .imagen-equipo-copadelaliga .logos-equipos-est {
   background-color: rgb(248, 148, 148);
 }
-main .sectionmain-copadelaliga .equipos-copadelaliga .grupo-b {
+main .grupo-b {
   display: flex;
   justify-content: center;
 }
 
-/* TERCERA PAGINA DE LA SERIE A */
-.sectionmain-seriea {
-  height: auto;
-  background-image: url(/img/Backgrounds/background\ serie\ a.jpg);
+main .sectionmain-seriea {
+  background-image: url(../img/Backgrounds/background\ serie\ a.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
 }
-
-.seccion-equipos-seriea {
+main .sectionmain-seriea .secciontitulos {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+main .sectionmain-seriea .secciontitulos .h1-seriea {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+main .sectionmain-seriea .seccion-equipos {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 20px;
-  width: 100%;
 }
-
-.secciontitulos-seriea {
-  font-size: 15px;
+main .sectionmain-seriea .seccion-equipos .equipos {
+  width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  flex-wrap: wrap;
 }
-
-.equipo-seriea {
+main .sectionmain-seriea .seccion-equipos .equipos img {
+  width: 100%;
+}
+main .sectionmain-seriea .seccion-equipos .equipos .equipo {
   width: 300px;
   box-shadow: 0 0 20px rgb(0, 0, 0);
   border-radius: 5px;
@@ -686,133 +697,113 @@ main .sectionmain-copadelaliga .equipos-copadelaliga .grupo-b {
   border: 2px solid black;
   margin: 20px;
 }
-
-.equipos-seriea {
-  width: auto;
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.equipos-seriea img {
-  width: 100%;
-}
-
-/* IMAGENES LOGOS SERIE A*/
-.imagen-equipo-seriea .logos-equipos-inter {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-inter {
   background-color: rgb(0, 0, 255);
 }
-
-.imagen-equipo-seriea .logos-equipos-milan {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-milan {
   background-color: rgb(241, 0, 0);
 }
-
-.imagen-equipo-seriea .logos-equipos-juventus {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-juventus {
   background-color: rgb(73, 68, 68);
 }
-
-.imagen-equipo-seriea .logos-equipos-lecce {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-lecce {
   background-color: rgb(67, 116, 180);
 }
-
-.imagen-equipo-seriea .logos-equipos-atalanta {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-atalanta {
   background-color: rgb(0, 0, 0);
 }
-
-.imagen-equipo-seriea .logos-equipos-napoli {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-napoli {
   background-color: rgb(43, 145, 240);
 }
-
-.imagen-equipo-seriea .logos-equipos-verona {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-verona {
   background-color: rgb(0, 0, 0);
 }
-
-.imagen-equipo-seriea .logos-equipos-fioren {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-fioren {
   background-color: rgb(112, 29, 112);
 }
-
-.imagen-equipo-seriea .logos-equipos-bolonia {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-bolonia {
   background-color: rgb(207, 2, 2);
 }
-
-.imagen-equipo-seriea .logos-equipos-frosino {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-frosino {
   background-color: rgb(91, 91, 204);
 }
-
-.imagen-equipo-seriea .logos-equipos-torino {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-torino {
   background-color: rgb(116, 5, 5);
 }
-
-.imagen-equipo-seriea .logos-equipos-lazio {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-lazio {
   background-color: rgb(141, 214, 214);
 }
-
-.imagen-equipo-seriea .logos-equipos-sassuo {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-sassuo {
   background-color: rgb(8, 97, 8);
 }
-
-.imagen-equipo-seriea .logos-equipos-genoa {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-genoa {
   background-color: rgb(245, 63, 63);
 }
-
-.imagen-equipo-seriea .logos-equipos-monza {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-monza {
   background-color: rgb(216, 6, 6);
 }
-
-.imagen-equipo-seriea .logos-equipos-salerni {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-salerni {
   background-color: rgb(88, 3, 3);
 }
-
-.imagen-equipo-seriea .logos-equipos-udinese {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-udinese {
   background-color: rgb(41, 29, 29);
 }
-
-.imagen-equipo-seriea .logos-equipos-roma {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-roma {
   background-color: rgb(99, 42, 42);
 }
-
-.imagen-equipo-seriea .logos-equipos-caglia {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-caglia {
   background-color: rgb(45, 45, 134);
 }
-
-.imagen-equipo-seriea .logos-equipos-empoli {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-empoli {
   background-color: rgb(112, 202, 231);
 }
-
-.texto-equipo-seriea {
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .texto-equipo {
   text-align: center;
   border: 1px solid rgb(255, 255, 255);
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+}
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .texto-equipo .ganados-hover:hover {
+  color: rgb(9, 235, 9);
+}
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .texto-equipo .empatados-hover:hover {
+  color: orange;
+}
+main .sectionmain-seriea .seccion-equipos .equipos .equipo .texto-equipo .perdidos-hover:hover {
+  color: red;
 }
 
-/* CUARTA PAGINA LA LIGA */
-.sectionmain-laliga {
-  height: auto;
-  background-image: url(/img/Backgrounds/background\ laliga.jpg);
+main .sectionmain-laliga {
+  background-image: url(../img/Backgrounds/background\ laliga.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
 }
-
-.seccion-equipos-laliga {
+main .sectionmain-laliga .secciontitulos {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+main .sectionmain-laliga .secciontitulos .h1-laliga {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+main .sectionmain-laliga .seccion-equipos {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 20px;
-  width: 100%;
 }
-
-.secciontitulos-laliga {
-  font-size: 15px;
+main .sectionmain-laliga .seccion-equipos .equipos {
+  width: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  flex-wrap: wrap;
 }
-
-.equipo-laliga {
+main .sectionmain-laliga .seccion-equipos .equipos img {
+  width: 100%;
+}
+main .sectionmain-laliga .seccion-equipos .equipos .equipo {
   width: 300px;
   box-shadow: 0 0 20px rgb(0, 0, 0);
   border-radius: 5px;
@@ -820,104 +811,77 @@ main .sectionmain-copadelaliga .equipos-copadelaliga .grupo-b {
   border: 2px solid black;
   margin: 20px;
 }
-
-.equipos-laliga {
-  width: auto;
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.equipos-laliga img {
-  width: 100%;
-  background-color: rgb(173, 173, 173);
-}
-
-/* IMAGENES LOGOS LA LIGA */
-.imagen-equipo-laliga .logos-equipos-madrid {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-madrid {
   background-color: rgb(219, 218, 218);
 }
-
-.imagen-equipo-laliga .logos-equipos-girona {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-girona {
   background-color: rgb(199, 165, 72);
 }
-
-.imagen-equipo-laliga .logos-equipos-barcelona {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-barcelona {
   background-color: rgb(83, 22, 22);
 }
-
-.imagen-equipo-laliga .logos-equipos-atlmadrid {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-atlmadrid {
   background-color: rgb(255, 61, 61);
 }
-
-.imagen-equipo-laliga .logos-equipos-atlbilbao {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-atlbilbao {
   background-color: rgb(34, 4, 4);
 }
-
-.imagen-equipo-laliga .logos-equipos-cadiz {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-cadiz {
   background-color: rgb(255, 255, 0);
 }
-
-.imagen-equipo-laliga .logos-equipos-betis {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-betis {
   background-color: rgb(9, 185, 9);
 }
-
-.imagen-equipo-laliga .logos-equipos-sociedad {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-sociedad {
   background-color: rgb(0, 78, 247);
 }
-
-.imagen-equipo-laliga .logos-equipos-osasuna {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-osasuna {
   background-color: rgb(145, 0, 0);
 }
-
-.imagen-equipo-laliga .logos-equipos-alaves {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-alaves {
   background-color: rgb(84, 84, 247);
 }
-
-.imagen-equipo-laliga .logos-equipos-valencia {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-valencia {
   background-color: rgb(238, 98, 5);
 }
-
-.imagen-equipo-laliga .logos-equipos-rayo {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-rayo {
   background-color: rgb(241, 107, 107);
 }
-
-.imagen-equipo-laliga .logos-equipos-celta {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-celta {
   background-color: rgb(93, 180, 202);
 }
-
-.imagen-equipo-laliga .logos-equipos-getafe {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-getafe {
   background-color: rgb(33, 33, 238);
 }
-
-.imagen-equipo-laliga .logos-equipos-villarreal {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-villarreal {
   background-color: rgb(243, 243, 5);
 }
-
-.imagen-equipo-laliga .logos-equipos-granada {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-granada {
   background-color: rgb(255, 49, 49);
 }
-
-.imagen-equipo-laliga .logos-equipos-mallo {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-mallo {
   background-color: rgb(226, 63, 4);
 }
-
-.imagen-equipo-laliga .logos-equipos-palmas {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-palmas {
   background-color: rgb(248, 248, 0);
 }
-
-.imagen-equipo-laliga .logos-equipos-almeria {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-almeria {
   background-color: rgb(236, 92, 92);
 }
-
-.imagen-equipo-laliga .logos-equipos-sevilla {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .imagen-equipo .logos-equipos-sevilla {
   background-color: rgb(196, 46, 0);
 }
-
-.texto-equipo-laliga {
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo {
   text-align: center;
   border: 1px solid rgb(255, 255, 255);
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+}
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .ganados-hover:hover {
+  color: rgb(9, 235, 9);
+}
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .empatados-hover:hover {
+  color: orange;
+}
+main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .perdidos-hover:hover {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
