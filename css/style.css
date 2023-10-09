@@ -32,16 +32,11 @@ header .custom-header .menu .nav-link:hover {
 }
 
 main .seccion-1-para-que {
-  display: flex;
-  justify-content: center;
   background-color: #cdffff;
 }
 main .seccion-1-para-que .seccion-1-h1-p {
-  display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: center;
-  justify-content: center;
 }
 main .seccion-1-para-que .seccion-1-h1-p .seccion-1-parrafo {
   width: 900px;
@@ -53,42 +48,29 @@ main .seccion-1-para-que .seccion-1-h1-p .seccion-1-foto {
 }
 main .seccion-2-mejores-goleadores {
   background-color: #cdffff;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 main .seccion-2-mejores-goleadores .seccion-2-h2 {
   font-family: Forque;
-  display: flex;
-  justify-content: center;
 }
 main .seccion-2-mejores-goleadores .cristiano-foto, main .seccion-2-mejores-goleadores .messi-foto, main .seccion-2-mejores-goleadores .bican-foto, main .seccion-2-mejores-goleadores .pele-foto, main .seccion-2-mejores-goleadores .romario-foto, main .seccion-2-mejores-goleadores .muller-foto, main .seccion-2-mejores-goleadores .puskas-foto, main .seccion-2-mejores-goleadores .jones-foto, main .seccion-2-mejores-goleadores .lewan-foto, main .seccion-2-mejores-goleadores .eusebio-foto {
   height: 700px;
 }
 main .seccion-3-cartas .seccion-3-h2 {
+  font-family: Forque;
   font-size: 40px;
   display: flex;
-  font-family: Forque;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   color: rgb(0, 0, 0);
   margin: auto;
   background-color: #cdffff;
 }
 main .seccion-3-cartas .div-3-mejores-ventas {
   background-color: #cdffff;
-  display: flex;
-  justify-content: center;
   text-align: center;
-  align-items: center;
 }
 main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla {
   display: grid;
@@ -135,18 +117,12 @@ main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-
   transition: opacity 0.3s ease-in-out;
 }
 main .seccion-4-quien-deberia {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   background-color: #cdffff;
+  flex-direction: column;
 }
 main .seccion-4-quien-deberia .seccion-4-h2 {
   font-size: 40px;
-  display: flex;
   font-family: Forque;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   color: rgb(0, 0, 0);
   margin: auto;
@@ -154,21 +130,19 @@ main .seccion-4-quien-deberia .seccion-4-h2 {
   background-color: #cdffff;
 }
 main .seccion-4-quien-deberia .seccion-4-foto-p {
-  display: flex;
   flex-direction: column;
-  align-items: center;
 }
 main .seccion-4-quien-deberia .seccion-4-foto-p .seccion-4-foto {
   width: 80%;
   display: flex;
 }
 main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-mbappe, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-haaland {
-  justify-content: center;
+  font-size: 23px;
+  font-family: coolvetica rg;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   padding-left: 8px;
-  font-family: coolvetica rg;
-  font-size: 23px;
   padding-top: 30px;
   text-align: justify;
 }
@@ -183,12 +157,8 @@ footer .footer .footer-copyright {
   color: rgb(255, 255, 255);
   font-size: 14px;
   margin: 0px;
-  display: flex;
-  justify-content: center;
 }
 footer .footer .footer-icon {
-  display: flex;
-  justify-content: center;
   margin: 0px;
   padding: 0px;
 }
@@ -198,8 +168,6 @@ footer .footer .footer-icon .footer-icon-img {
 footer .footer .footer-social {
   margin: 0px;
   padding: 0px;
-  display: flex;
-  justify-content: center;
 }
 footer .footer .footer-social .footer-social-link {
   margin-left: 10px;
@@ -209,8 +177,6 @@ footer .footer .footer-social .footer-social-link {
 /* RESPONSIVE DE CELULAR */
 @media (min-width: 320px) and (max-width: 480px) {
   main .seccion-1-para-que {
-    display: flex;
-    justify-content: center;
     background-color: #cdffff;
     flex-direction: column;
   }
@@ -416,8 +382,6 @@ main .sectionmain-premierleague {
   width: 100%;
 }
 main .sectionmain-premierleague .secciontitulos-premierleague {
-  display: flex;
-  justify-content: center;
   padding-top: 10px;
 }
 main .sectionmain-premierleague .secciontitulos-premierleague .h1-premierleague {
@@ -425,15 +389,10 @@ main .sectionmain-premierleague .secciontitulos-premierleague .h1-premierleague 
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 20px;
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier {
   width: 100%;
-  display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier img {
@@ -530,9 +489,7 @@ main .sectionmain-copadelaliga {
   width: 100%;
 }
 main .sectionmain-copadelaliga .secciontitulos {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
   padding-top: 30px;
 }
 main .sectionmain-copadelaliga .secciontitulos .h1-copadelaliga {
@@ -542,16 +499,11 @@ main .sectionmain-copadelaliga .secciontitulos .h2-copadelaliga {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 main .sectionmain-copadelaliga .seccion-equipos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   padding-top: 20px;
 }
 main .sectionmain-copadelaliga .seccion-equipos .equipos {
   width: 100%;
-  display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 main .sectionmain-copadelaliga .seccion-equipos .equipos img {
@@ -663,10 +615,6 @@ main .sectionmain-copadelaliga .seccion-equipos .equipos .equipo .texto-equipo .
 main .sectionmain-copadelaliga .seccion-equipos .equipos .equipo .texto-equipo .perdidos-hover:hover {
   color: red;
 }
-main .sectionmain-copadelaliga .seccion-equipos .grupo-b {
-  display: flex;
-  justify-content: center;
-}
 main .sectionmain-copadelaliga .seccion-equipos .grupo-b .h2-grupob {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
@@ -679,8 +627,6 @@ main .sectionmain-seriea {
   width: 100%;
 }
 main .sectionmain-seriea .secciontitulos {
-  display: flex;
-  justify-content: center;
   padding-top: 30px;
 }
 main .sectionmain-seriea .secciontitulos .h1-seriea {
@@ -688,15 +634,10 @@ main .sectionmain-seriea .secciontitulos .h1-seriea {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 main .sectionmain-seriea .seccion-equipos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 20px;
 }
 main .sectionmain-seriea .seccion-equipos .equipos {
   width: 100%;
-  display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 main .sectionmain-seriea .seccion-equipos .equipos img {
@@ -793,8 +734,6 @@ main .sectionmain-laliga {
   width: 100%;
 }
 main .sectionmain-laliga .secciontitulos {
-  display: flex;
-  justify-content: center;
   padding-top: 30px;
 }
 main .sectionmain-laliga .secciontitulos .h1-laliga {
@@ -802,15 +741,10 @@ main .sectionmain-laliga .secciontitulos .h1-laliga {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 main .sectionmain-laliga .seccion-equipos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 20px;
 }
 main .sectionmain-laliga .seccion-equipos .equipos {
   width: 100%;
-  display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 main .sectionmain-laliga .seccion-equipos .equipos img {
@@ -897,4 +831,10 @@ main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .empata
 }
 main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .perdidos-hover:hover {
   color: red;
+}
+
+main .seccion-1-para-que, main .seccion-1-para-que .seccion-1-h1-p, main .seccion-2-mejores-goleadores, main .seccion-2-mejores-goleadores .seccion-2-h2, main .seccion-3-cartas .seccion-3-h2, main .seccion-3-cartas .div-3-mejores-ventas, main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion, main .seccion-4-quien-deberia, main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-4-quien-deberia .seccion-4-foto-p, footer .footer .footer-copyright, footer .footer .footer-icon, footer .footer .footer-social, main .sectionmain-premierleague .secciontitulos-premierleague, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-seriea .secciontitulos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .seccion-equipos .equipos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

@@ -6,9 +6,8 @@ main{
         background-repeat: no-repeat;
         width: 100%;
         .secciontitulos {
-            display: flex;
+            @extend %flex-center;
             flex-direction: column;
-            justify-content: center;
             padding-top: 30px;
             .h1-copadelaliga {
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -18,15 +17,12 @@ main{
             }
         }
         .seccion-equipos {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %flex-center;
             flex-wrap: wrap;
             padding-top: 20px;
             .equipos {
                 width: 100%;
-                display: flex;
-                justify-content: center;
+                @extend %flex-center;
                 flex-wrap: wrap;
                 img{
                     width: 100%;
@@ -147,8 +143,7 @@ main{
                 }
             }
             .grupo-b {
-                display: flex;
-                justify-content: center;
+                @extend %flex-center;
                 .h2-grupob{
                     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
                 }

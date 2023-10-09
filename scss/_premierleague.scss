@@ -6,8 +6,7 @@ main{
         background-repeat: no-repeat;
         width: 100%;
         .secciontitulos-premierleague {
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
             padding-top: 10px;
             .h1-premierleague {
                 font-size: 30px;
@@ -15,14 +14,11 @@ main{
             }
         }
         .seccion-equipos-premierleague {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %flex-center;
             padding-top: 20px;
             .equipos-premier {
                 width: 100%;
-                display: flex;
-                justify-content: center;
+                @extend %flex-center;
                 flex-wrap: wrap;
                 img{
                     width: 100%;

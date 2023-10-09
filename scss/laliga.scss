@@ -1,13 +1,12 @@
 main{
     .sectionmain-laliga {
-        background-image: url(../img/Backgrounds/background\ laliga.jpg);
+        background-image: url(../img/Backgrounds/background\ laliga.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
         .secciontitulos {
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
             padding-top: 30px;
             .h1-laliga {
                 font-size: 30px;
@@ -15,14 +14,11 @@ main{
             }
         }
         .seccion-equipos {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %flex-center;
             padding-top: 20px;
             .equipos {
                 width: 100%;
-                display: flex;
-                justify-content: center;
+                @extend %flex-center;
                 flex-wrap: wrap;
                 img{
                     width: 100%;

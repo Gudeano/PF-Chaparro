@@ -1,14 +1,11 @@
 main{
     .seccion-1-para-que {
-        display: flex;
-        justify-content: center;
+        @extend %flex-center;
         background-color: #cdffff;
         .seccion-1-h1-p {
-            display: flex;
+            @extend %flex-center;
             flex-direction: column;
-            align-items: center;
             text-align: center;
-            justify-content: center;
             .seccion-1-parrafo {
                 width: 900px;
                 font-size: 20px;
@@ -21,15 +18,12 @@ main{
     }
     .seccion-2-mejores-goleadores {
         background-color: #cdffff;
-        display: flex;
+        @extend %flex-center;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         text-align: center;
         .seccion-2-h2 {
             font-family: Forque;
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
         }
         .cristiano-foto, .messi-foto, .bican-foto, .pele-foto, .romario-foto, .muller-foto, .puskas-foto, .jones-foto, .lewan-foto, .eusebio-foto {
             height: 700px;
@@ -37,26 +31,21 @@ main{
     }
     .seccion-3-cartas{
         .seccion-3-h2 {
+            font-family: Forque;
             font-size: 40px;
             display: flex;
-            font-family: Forque;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+            @extend %flex-center;
             color: rgb(0, 0, 0);
             margin: auto;
             background-color: #cdffff;
         }
         .div-3-mejores-ventas {
             background-color: #cdffff;
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
             text-align: center;
-            align-items: center;
             .cartas-alineacion {
-                display: flex;
+                @extend %flex-center;
                 flex-wrap: wrap;
-                justify-content: center;
                 .grilla {
                     display: grid;
                     grid-template-columns: repeat(5, 1fr);
@@ -107,17 +96,13 @@ main{
         }
     }
     .seccion-4-quien-deberia {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
         background-color: #cdffff;
+        @extend %flex-center;
+        flex-direction: column;
         .seccion-4-h2 {
             font-size: 40px;
-            display: flex;
             font-family: Forque;
-            justify-content: center;
-            align-items: center;
+            @extend %flex-center;
             text-align: center;
             color: rgb(0, 0, 0);
             margin: auto;
@@ -125,23 +110,22 @@ main{
             background-color: #cdffff;
         }
         .seccion-4-foto-p {
-            display: flex;
+            @extend %flex-center;
             flex-direction: column;
-            align-items: center;
             .seccion-4-foto {
                 width: 80%;
                 display: flex;
             }
             .columnas-parrafos{
                 .seccion-4-p-messi, .seccion-4-p-mbappe, .seccion-4-p-haaland {
-            justify-content: center;
-            display: flex;
-            flex-direction: column;
-            padding-left: 8px;
-            font-family: coolvetica rg;
-            font-size: 23px;
-            padding-top: 30px;
-            text-align: justify;
+                    font-size: 23px;
+                    font-family: coolvetica rg;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding-left: 8px;
+                    padding-top: 30px;
+                    text-align: justify;
                 }
             }
         }

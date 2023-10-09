@@ -8,12 +8,10 @@ footer{
             color: rgb(255, 255, 255);
             font-size: 14px;
             margin: 0px;
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
         }
         .footer-icon {
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
             margin: 0px;
             padding: 0px;
             .footer-icon-img {
@@ -23,8 +21,7 @@ footer{
         .footer-social {
             margin: 0px;
             padding: 0px;
-            display: flex;
-            justify-content: center;
+            @extend %flex-center;
             .footer-social-link {
                 margin-left: 10px;
                 width: 40px;
