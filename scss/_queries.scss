@@ -3,11 +3,15 @@
   
   main{
     .seccion-1-para-que {
-      @extend %flex-center;
+      justify-content: center;
+      align-items: center;
+      display: flex;
       background-color: #cdffff;
       flex-direction: column;
       .seccion-1-h1-p {
-        @extend %flex-center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         text-align: center;
         .seccion-1-parrafo {
@@ -21,7 +25,9 @@
       }
     }
     .seccion-2-mejores-goleadores {
-      @extend %flex-center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       flex-direction: column;
       text-align: center;
       .cristiano-foto, .messi-foto, .bican-foto, .pele-foto, .romario-foto, .muller-foto, .puskas-foto, .jones-foto, .lewan-foto, .eusebio-foto {
@@ -47,13 +53,14 @@
                 padding: 0px;
               }
             }
-            }
-          
+          }
         }
       }
     }
     .seccion-4-quien-deberia {
-      @extend %flex-center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       .seccion-4-h2 {
         font-size: 20px;
       }

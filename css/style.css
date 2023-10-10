@@ -177,15 +177,18 @@ footer .footer .footer-social .footer-social-link {
 /* RESPONSIVE DE CELULAR */
 @media (min-width: 320px) and (max-width: 480px) {
   main .seccion-1-para-que {
+    justify-content: center;
+    align-items: center;
+    display: flex;
     background-color: #cdffff;
     flex-direction: column;
   }
   main .seccion-1-para-que .seccion-1-h1-p {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
   }
   main .seccion-1-para-que .seccion-1-h1-p .seccion-1-parrafo {
     padding-top: 10px;
@@ -197,9 +200,9 @@ footer .footer .footer-social .footer-social-link {
   }
   main .seccion-2-mejores-goleadores {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     text-align: center;
   }
   main .seccion-2-mejores-goleadores .cristiano-foto, main .seccion-2-mejores-goleadores .messi-foto, main .seccion-2-mejores-goleadores .bican-foto, main .seccion-2-mejores-goleadores .pele-foto, main .seccion-2-mejores-goleadores .romario-foto, main .seccion-2-mejores-goleadores .muller-foto, main .seccion-2-mejores-goleadores .puskas-foto, main .seccion-2-mejores-goleadores .jones-foto, main .seccion-2-mejores-goleadores .lewan-foto, main .seccion-2-mejores-goleadores .eusebio-foto {
@@ -223,9 +226,9 @@ footer .footer .footer-social .footer-social-link {
     padding: 0px;
   }
   main .seccion-4-quien-deberia {
-    align-items: center;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   main .seccion-4-quien-deberia .seccion-4-h2 {
     font-size: 20px;
@@ -375,7 +378,7 @@ main section .secciontitulos {
   }
 }
 main .sectionmain-premierleague {
-  background-image: url(../img/Backgrounds/background\ premier\ league.jpg);
+  background-image: url(../img/Backgrounds/background\ premier\ league.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -482,7 +485,7 @@ main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier 
 }
 
 main .sectionmain-copadelaliga {
-  background-image: url(../img/Backgrounds/backgroundcopadelaliga.jpg);
+  background-image: url(../img/Backgrounds/backgroundcopadelaliga.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -620,7 +623,7 @@ main .sectionmain-copadelaliga .seccion-equipos .grupo-b .h2-grupob {
 }
 
 main .sectionmain-seriea {
-  background-image: url(../img/Backgrounds/background\ serie\ a.jpg);
+  background-image: url(../img/Backgrounds/background\ serie\ a.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -727,7 +730,7 @@ main .sectionmain-seriea .seccion-equipos .equipos .equipo .texto-equipo .perdid
 }
 
 main .sectionmain-laliga {
-  background-image: url(../img/Backgrounds/background\ laliga.jpg);
+  background-image: url(../img/Backgrounds/background\ laliga.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
