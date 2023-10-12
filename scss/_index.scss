@@ -1,9 +1,8 @@
 main{
     .seccion-1-para-que {
-        @extend %flex-center;
+        @include flex(flex,row,center,center);
         background-color: #cdffff;
         .seccion-1-h1-p {
-            @extend %flex-center;
             flex-direction: column;
             text-align: center;
             .seccion-1-parrafo {
@@ -33,7 +32,6 @@ main{
         .seccion-3-h2 {
             font-family: Forque;
             font-size: 40px;
-            display: flex;
             @extend %flex-center;
             color: rgb(0, 0, 0);
             margin: auto;

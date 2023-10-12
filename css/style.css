@@ -1,3 +1,13 @@
+main .sectionmain-laliga .seccion-equipos .equipos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .secciontitulos, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .secciontitulos-premierleague, footer .footer .footer-social, footer .footer .footer-icon, footer .footer .footer-copyright, main .seccion-4-quien-deberia .seccion-4-foto-p, main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-4-quien-deberia, main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion, main .seccion-3-cartas .div-3-mejores-ventas, main .seccion-3-cartas .seccion-3-h2, main .seccion-2-mejores-goleadores .seccion-2-h2, main .seccion-2-mejores-goleadores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondo-manc {
+  background-color: rgb(0, 255, 255);
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -32,6 +42,10 @@ header .custom-header .menu .nav-link:hover {
 }
 
 main .seccion-1-para-que {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: #cdffff;
 }
 main .seccion-1-para-que .seccion-1-h1-p {
@@ -60,7 +74,6 @@ main .seccion-2-mejores-goleadores .cristiano-foto, main .seccion-2-mejores-gole
 main .seccion-3-cartas .seccion-3-h2 {
   font-family: Forque;
   font-size: 40px;
-  display: flex;
   color: rgb(0, 0, 0);
   margin: auto;
   background-color: #cdffff;
@@ -409,61 +422,61 @@ main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier 
   margin: 20px;
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-city {
-  background-color: cyan;
+  background-color: rgb(0, 255, 255);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-totten {
-  background-color: rgb(175, 171, 171);
+  background-color: rgb(169, 168, 168);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-liverpool {
-  background-color: rgb(236, 57, 57);
+  background-color: rgb(255, 1, 1);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-westham {
-  background-color: rgb(88, 34, 99);
+  background-color: rgb(112, 2, 112);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-arsenal {
-  background-color: brown;
+  background-color: rgb(95, 21, 21);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-brighton {
-  background-color: #3e6e81;
+  background-color: rgb(66, 66, 181);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-crys {
-  background-color: rgb(9, 21, 185);
+  background-color: rgb(0, 0, 255);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-brent {
-  background-color: red;
+  background-color: rgb(255, 1, 1);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-notti {
-  background-color: rgb(121, 25, 25);
+  background-color: rgb(95, 21, 21);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-aston {
   background-color: rgb(73, 33, 28);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-manu {
-  background-color: rgb(248, 87, 87);
+  background-color: rgb(255, 1, 1);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-chelsea {
-  background-color: rgb(6, 6, 136);
+  background-color: rgb(0, 0, 255);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-full {
-  background-color: rgb(116, 79, 79);
+  background-color: rgb(95, 21, 21);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-new {
-  background-color: rgb(190, 190, 190);
+  background-color: rgb(169, 168, 168);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-wolves {
-  background-color: rgb(177, 130, 2);
+  background-color: rgb(173, 128, 15);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-bourn {
-  background-color: rgb(116, 0, 0);
+  background-color: rgb(95, 21, 21);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-sheff {
-  background-color: red;
+  background-color: rgb(255, 1, 1);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-everton {
-  background-color: blue;
+  background-color: rgb(66, 66, 181);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-luton {
-  background-color: rgb(28, 77, 28);
+  background-color: rgb(31, 80, 31);
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo .imagen-equipo .logos-equipos-burnley {
   background-color: rgb(7, 110, 110);
@@ -833,10 +846,4 @@ main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .empata
 }
 main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .perdidos-hover:hover {
   color: red;
-}
-
-main .seccion-1-para-que, main .seccion-1-para-que .seccion-1-h1-p, main .seccion-2-mejores-goleadores, main .seccion-2-mejores-goleadores .seccion-2-h2, main .seccion-3-cartas .seccion-3-h2, main .seccion-3-cartas .div-3-mejores-ventas, main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion, main .seccion-4-quien-deberia, main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-4-quien-deberia .seccion-4-foto-p, footer .footer .footer-copyright, footer .footer .footer-icon, footer .footer .footer-social, main .sectionmain-premierleague .secciontitulos-premierleague, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-seriea .secciontitulos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .seccion-equipos .equipos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }/*# sourceMappingURL=style.css.map */
