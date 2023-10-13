@@ -23,8 +23,22 @@ footer{
             padding: 0px;
             @extend %flex-center;
             .footer-social-link {
-                margin-left: 10px;
+                @extend %flex-center;
+                margin: 0px;
+                margin-left: 60px;
                 width: 40px;
+                .bi-facebook{
+                    width: 30px;
+                    height: 30px;
+                }
+                .bi-instagram{
+                    width: 30px;
+                    height: 30px;
+                }
+                .bi-twitter{
+                    width: 30px;
+                    height: 30px;
+                }
             }
         }
     }

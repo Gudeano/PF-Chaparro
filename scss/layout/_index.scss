@@ -11,7 +11,7 @@ main{
                 padding-top: 10px;
             }
             .seccion-1-foto {
-                height: 600px;
+                height: 400px;
             }
         }
     }
@@ -25,7 +25,7 @@ main{
             @extend %flex-center;
         }
         .cristiano-foto, .messi-foto, .bican-foto, .pele-foto, .romario-foto, .muller-foto, .puskas-foto, .jones-foto, .lewan-foto, .eusebio-foto {
-            height: 700px;
+            height: 500px;
         }
     }
     .seccion-3-cartas{
@@ -63,6 +63,7 @@ main{
                             }
                         }
                         .foto-ventas {
+                            border-radius: 6px;
                             max-width: 100%;
                             height: 100%;
                             filter: blur(0);
@@ -110,19 +111,19 @@ main{
             @extend %flex-center;
             flex-direction: column;
             .seccion-4-foto {
-                width: 80%;
+                width: 60%;
                 display: flex;
             }
             .columnas-parrafos{
                 .seccion-4-p-messi, .seccion-4-p-mbappe, .seccion-4-p-haaland {
                     font-size: 23px;
                     font-family: coolvetica rg;
-                    display: flex;
-                    justify-content: center;
+                    @extend %flex-center;
                     flex-direction: column;
                     padding-left: 8px;
                     padding-top: 30px;
                     text-align: justify;
+                    width: 800px
                 }
             }
         }

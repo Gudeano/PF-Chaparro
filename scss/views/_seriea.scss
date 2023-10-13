@@ -32,67 +32,68 @@ main{
                     margin: 20px;
                     .imagen-equipo{
                         .logos-equipos-inter {
-                            background-color: rgb(0, 0, 255);
+                            background-color: map-get($colores, azul);
                         }
                         .logos-equipos-milan {
-                            background-color: rgb(241, 0, 0);
+                            background-color: map-get($colores, rojo);
                         }
                         .logos-equipos-juventus {
-                            background-color: rgb(73, 68, 68);
+                            background-color: map-get($colores, gris);
                         }
                         .logos-equipos-lecce {
-                            background-color: rgb(67, 116, 180);
+                            background-color: map-get($colores, azul-gris);
                         }
                         .logos-equipos-atalanta {
-                            background-color: rgb(0, 0, 0);
+                            background-color: map-get($colores, celeste-claro);
                         }
                         .logos-equipos-napoli {
-                            background-color: rgb(43, 145, 240);
+                            background-color: map-get($colores, azul-gris);
                         }
                         .logos-equipos-verona {
-                            background-color: rgb(0, 0, 0);
+                            background-color: map-get($colores, amarillo-ocre);
                         }
                         .logos-equipos-fioren {
-                            background-color: rgb(112, 29, 112);
+                            background-color: map-get($colores, violeta);
                         }
                         .logos-equipos-bolonia {
-                            background-color: rgb(207, 2, 2);
+                            background-color: map-get($colores, rojo);
                         }
                         .logos-equipos-frosino {
-                            background-color: rgb(91, 91, 204);
+                            background-color: map-get($colores, azul-oscuro);
                         }
                         .logos-equipos-torino {
-                            background-color: rgb(116, 5, 5);
+                            background-color: map-get($colores, marron);
                         }
                         .logos-equipos-lazio {
-                            background-color: rgb(141, 214, 214);
+                            background-color: map-get($colores, celeste);
                         }
                         .logos-equipos-sassuo {
-                            background-color: rgb(8, 97, 8);
+                            background-color: map-get($colores, verde-oscuro);
                         }
                         .logos-equipos-genoa {
-                            background-color: rgb(245, 63, 63);
+                            background-color: map-get($colores, rosa);
                         }
                         .logos-equipos-monza {
-                            background-color: rgb(216, 6, 6);
+                            background-color: map-get($colores, rojo);
                         }
                         .logos-equipos-salerni {
-                            background-color: rgb(88, 3, 3);
+                            background-color: map-get($colores, marron);
                         }
                         .logos-equipos-udinese {
-                            background-color: rgb(41, 29, 29);
+                            background-color: map-get($colores, marron-clarito);
                         }
                         .logos-equipos-roma {
-                            background-color: rgb(99, 42, 42);
+                            background-color: map-get($colores, marron);
                         }
                         .logos-equipos-caglia {
-                            background-color: rgb(45, 45, 134);
+                            background-color: map-get($colores, azul-oscuro);
                         }
                         .logos-equipos-empoli {
-                            background-color: rgb(112, 202, 231);
+                            background-color: map-get($colores, celeste);
                         }
                     }
                 .texto-equipo {
+                        margin-top: 10px;
                         text-align: center;
                         border: 1px solid rgb(255, 255, 255);
                         background-color: rgb(255, 255, 255);
