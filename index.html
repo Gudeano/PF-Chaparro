@@ -7,6 +7,8 @@
     <meta name="description" content="¿Querés saber información de futbol y tablas generales de las ligas más importantes del mundo? Entra acá">
     <meta name="keywords"  content="balon de oro, las mejores ventas, los mejores goleadores, premier league, copa de la liga, serie a, la liga">
     <title>HOME | CHAPAFUTBOL</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  <!-- Aos css -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="shortcut icon" href="img/favicon.webp" type="logo-chapafutbol">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -69,7 +71,7 @@
         </div>
         <section class="seccion-2-mejores-goleadores">
             <h2 class="seccion-2-h2">LOS MEJORES GOLEADORES DE LA HISTORIA DEL FUTBOL</h2>
-            <div id="carouselExample" class="carousel slide">
+            <div data-aos="fade-zoom-in" id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
                         data-bs-slide="prev">
@@ -124,7 +126,7 @@
             <div class="div-3-mejores-ventas">
                 <div class="cartas-alineacion">
                     <div class="div1 grilla">
-                        <div class="cartas-ventas">
+                        <div data-aos="zoom-in" data-aos-duration="1500" class="cartas-ventas">
                             <img class="foto-ventas" src="img/Cards-ventas/Neymar Jr card.webp" alt="Neymar Junior">
                             <div class="texto-ventas">
                                 <p>1. Neymar Junior</p>
@@ -132,7 +134,7 @@
                                 <p>De Barcelona A PSG</p>
                             </div>
                         </div>
-                        <div class="cartas-ventas">
+                        <div data-aos="zoom-in" data-aos-duration="1500" class="cartas-ventas">
                             <img class="foto-ventas" src="img/Cards-ventas/Kylian Mbappe card.webp" alt="Kylian Mbappe">
                             <div class="texto-ventas">
                                 <p>2. Kylian Mbappe</p>
@@ -140,7 +142,7 @@
                                 <p>De Mónaco A PSG</p>
                             </div>
                         </div>
-                        <div class="cartas-ventas">
+                        <div data-aos="zoom-in" data-aos-duration="1500" class="cartas-ventas">
                             <img class="foto-ventas" src="img/Cards-ventas/Phillipe Coutinho card.webp"
                                 alt="Philippe Coutinho">
                             <div class="texto-ventas">
@@ -149,7 +151,7 @@
                                 <p>De Liverpool A Barcelona</p>
                             </div>
                         </div>
-                        <div class="cartas-ventas">
+                        <div data-aos="zoom-in" data-aos-duration="1500" class="cartas-ventas">
                             <img class="foto-ventas" src="img/Cards-ventas/Usmane Dembele card.webp"
                                 alt="Ousmane Dembele">
                             <div class="texto-ventas">
@@ -158,7 +160,7 @@
                                 <p>De Borussia Dortmund A Barcelona</p>
                             </div>
                         </div>
-                        <div class="cartas-ventas">
+                        <div data-aos="zoom-in" data-aos-duration="1500" class="cartas-ventas">
                             <img class="foto-ventas" src="img/Cards-ventas/Joao Felix card.webp" alt="Joao Felix">
                             <div class="texto-ventas">
                                 <p>5. Joao Felix</p>
@@ -166,7 +168,7 @@
                                 <p>De Benfica A Atlético Madrid</p>
                             </div>
                         </div>
-                        <div class="cartas-ventas">
+                        <div data-aos="zoom-in" data-aos-duration="1500" class="cartas-ventas">
                             <img class="foto-ventas" src="img/Cards-ventas/Declan Rice card.webp" alt="Declan Rice">
                             <div class="texto-ventas">
                                 <p>6. Declan Rice</p>
@@ -174,7 +176,7 @@
                                 <p>De West Ham A Arsenal</p>
                             </div>
                         </div>
-                        <div class="cartas-ventas">
+                        <div data-aos="zoom-in" data-aos-duration="1500" class="cartas-ventas">
                             <img class="foto-ventas" src="img/Cards-ventas/Enzo Fernandez card.webp"
                                 alt="Enzo Fernandez">
                             <div class="texto-ventas">
@@ -183,7 +185,7 @@
                                 <p>De Benfica A Chelsea</p>
                             </div>
                         </div>
-                        <div class="cartas-ventas">
+                        <div data-aos="zoom-in" data-aos-duration="1500" class="cartas-ventas">
                             <img class="foto-ventas" src="img/Cards-ventas/Antoine Griezmann card.webp"
                                 alt="Antoine Griezmann">
                             <div class="texto-ventas">
@@ -192,7 +194,7 @@
                                 <p>De Atlético Madrid A Barcelona</p>
                             </div>
                         </div>
-                        <div class="cartas-ventas">
+                        <div data-aos="zoom-in" data-aos-duration="1500" class="cartas-ventas">
                             <img class="foto-ventas" src="img/Cards-ventas/Neymar Jr al card.webp" alt="Neymar Junior">
                             <div class="texto-ventas">
                                 <p>9. Neymar Junior</p>
@@ -200,7 +202,7 @@
                                 <p>De PSG A Al-Hilal</p>
                             </div>
                         </div>
-                        <div class="cartas-ventas">
+                        <div data-aos="zoom-in" data-aos-duration="1500" class="cartas-ventas">
                             <img class="foto-ventas" src="img/Cards-ventas/Jack Grealish card.webp" alt="Jack Grealish">
                             <div class="texto-ventas">
                                 <p>10. Jack Grealish</p>
@@ -277,6 +279,9 @@
             </div>
         </div>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
