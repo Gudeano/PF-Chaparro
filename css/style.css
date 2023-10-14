@@ -1,11 +1,9 @@
-main .sectionmain-laliga .seccion-equipos .equipos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .secciontitulos, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .secciontitulos-premierleague, footer .footer .footer-social .footer-social-link, footer .footer .footer-social, footer .footer .footer-icon, footer .footer .footer-copyright, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-mbappe, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-haaland, main .seccion-4-quien-deberia .seccion-4-foto-p, main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-4-quien-deberia, main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion, main .seccion-3-cartas .div-3-mejores-ventas, main .seccion-3-cartas .seccion-3-h2, main .seccion-2-mejores-goleadores .seccion-2-h2, main .seccion-2-mejores-goleadores {
+main .sectionmain-laliga .seccion-equipos .equipos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .secciontitulos, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .secciontitulos-premierleague, footer .footer .footer-social .footer-social-link, footer .footer .footer-social, footer .footer .footer-icon, footer .footer .footer-copyright, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi,
+main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-mbappe,
+main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-haaland, main .seccion-4-quien-deberia .seccion-4-foto-p, main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-4-quien-deberia, main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion, main .seccion-3-cartas .div-3-mejores-ventas, main .seccion-3-cartas .seccion-3-h2, main .seccion-2-mejores-goleadores .seccion-2-h2, main .seccion-2-mejores-goleadores {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.fondo-manc {
-  background-color: rgb(0, 255, 255);
 }
 
 * {
@@ -44,34 +42,26 @@ header .custom-header .menu .nav-link:hover {
   color: rgb(207, 130, 14);
 }
 
-main .seccion-1-para-que {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #cdffff;
-}
-main .seccion-1-para-que .seccion-1-h1-p {
-  flex-direction: column;
-  text-align: center;
-}
-main .seccion-1-para-que .seccion-1-h1-p .seccion-1-parrafo {
-  width: 900px;
-  font-size: 20px;
-  padding-top: 10px;
-}
-main .seccion-1-para-que .seccion-1-h1-p .seccion-1-foto {
-  height: 400px;
-}
 main .seccion-2-mejores-goleadores {
   background-color: #cdffff;
   flex-direction: column;
   text-align: center;
 }
 main .seccion-2-mejores-goleadores .seccion-2-h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
   font-family: Forque;
 }
-main .seccion-2-mejores-goleadores .cristiano-foto, main .seccion-2-mejores-goleadores .messi-foto, main .seccion-2-mejores-goleadores .bican-foto, main .seccion-2-mejores-goleadores .pele-foto, main .seccion-2-mejores-goleadores .romario-foto, main .seccion-2-mejores-goleadores .muller-foto, main .seccion-2-mejores-goleadores .puskas-foto, main .seccion-2-mejores-goleadores .jones-foto, main .seccion-2-mejores-goleadores .lewan-foto, main .seccion-2-mejores-goleadores .eusebio-foto {
+main .seccion-2-mejores-goleadores .cristiano-foto,
+main .seccion-2-mejores-goleadores .messi-foto,
+main .seccion-2-mejores-goleadores .bican-foto,
+main .seccion-2-mejores-goleadores .pele-foto,
+main .seccion-2-mejores-goleadores .romario-foto,
+main .seccion-2-mejores-goleadores .muller-foto,
+main .seccion-2-mejores-goleadores .puskas-foto,
+main .seccion-2-mejores-goleadores .jones-foto,
+main .seccion-2-mejores-goleadores .lewan-foto,
+main .seccion-2-mejores-goleadores .eusebio-foto {
   height: 500px;
 }
 main .seccion-3-cartas .seccion-3-h2 {
@@ -152,7 +142,9 @@ main .seccion-4-quien-deberia .seccion-4-foto-p .seccion-4-foto {
   width: 60%;
   display: flex;
 }
-main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-mbappe, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-haaland {
+main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi,
+main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-mbappe,
+main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-haaland {
   font-size: 23px;
   font-family: coolvetica rg;
   flex-direction: column;
