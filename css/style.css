@@ -1,9 +1,14 @@
-main .sectionmain-laliga .seccion-equipos .equipos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .secciontitulos, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .secciontitulos-premierleague, footer .footer .footer-social .footer-social-link, footer .footer .footer-social, footer .footer .footer-icon, footer .footer .footer-copyright, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi,
+main .sectionmain-laliga .seccion-equipos .equipos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .secciontitulos, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .secciontitulos-premierleague, main .sectionmain-premierleague .video-premierleague, footer .footer .footer-social .footer-social-link, footer .footer .footer-social, footer .footer .footer-icon, footer .footer .footer-copyright, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi,
 main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-mbappe,
-main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-haaland, main .seccion-4-quien-deberia .seccion-4-foto-p, main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-4-quien-deberia, main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion, main .seccion-3-cartas .div-3-mejores-ventas, main .seccion-3-cartas .seccion-3-h2, main .seccion-2-mejores-goleadores .seccion-2-h2, main .seccion-2-mejores-goleadores {
+main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-haaland, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos, main .seccion-4-quien-deberia .seccion-4-foto-p, main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-4-quien-deberia, main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion, main .seccion-3-cartas .div-3-mejores-ventas, main .seccion-3-cartas .seccion-3-h2, main .seccion-2-mejores-goleadores .seccion-2-h2, main .seccion-2-mejores-goleadores {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-3-cartas .seccion-3-h2, main .seccion-2-mejores-goleadores .seccion-2-h2 {
+  padding-top: 100px;
+  font-size: 50px;
 }
 
 * {
@@ -48,7 +53,6 @@ main .seccion-2-mejores-goleadores {
   text-align: center;
 }
 main .seccion-2-mejores-goleadores .seccion-2-h2 {
-  padding-top: 20px;
   padding-bottom: 10px;
   font-family: Forque;
 }
@@ -62,11 +66,11 @@ main .seccion-2-mejores-goleadores .puskas-foto,
 main .seccion-2-mejores-goleadores .jones-foto,
 main .seccion-2-mejores-goleadores .lewan-foto,
 main .seccion-2-mejores-goleadores .eusebio-foto {
-  height: 500px;
+  height: 710px;
+  border-radius: 20px;
 }
 main .seccion-3-cartas .seccion-3-h2 {
   font-family: Forque;
-  font-size: 40px;
   color: rgb(0, 0, 0);
   margin: auto;
   background-color: #cdffff;
@@ -85,7 +89,7 @@ main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla {
   gap: 10px;
 }
 main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-ventas {
-  width: 150px;
+  width: 175px;
   height: auto;
   background-color: #ffffff;
   margin: 5px;
@@ -111,11 +115,12 @@ main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-
 }
 main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-ventas .texto-ventas {
   position: absolute;
+  font-weight: 800;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 12px;
-  color: #fff;
+  color: #ffffff;
   padding: 10px;
   border-radius: 5px;
   width: 80%;
@@ -127,7 +132,6 @@ main .seccion-4-quien-deberia {
   flex-direction: column;
 }
 main .seccion-4-quien-deberia .seccion-4-h2 {
-  font-size: 40px;
   font-family: Forque;
   text-align: center;
   color: rgb(0, 0, 0);
@@ -139,8 +143,11 @@ main .seccion-4-quien-deberia .seccion-4-foto-p {
   flex-direction: column;
 }
 main .seccion-4-quien-deberia .seccion-4-foto-p .seccion-4-foto {
-  width: 60%;
+  width: 90%;
   display: flex;
+}
+main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos {
+  flex-direction: column;
 }
 main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi,
 main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-mbappe,
@@ -149,9 +156,9 @@ main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-
   font-family: coolvetica rg;
   flex-direction: column;
   padding-left: 8px;
-  padding-top: 30px;
+  padding-top: 40px;
   text-align: justify;
-  width: 800px;
+  width: 970px;
 }
 
 footer .footer {
@@ -200,6 +207,26 @@ main .sectionmain-premierleague {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+}
+main .sectionmain-premierleague .video-premierleague {
+  flex-direction: column;
+}
+main .sectionmain-premierleague .video-premierleague .titulo-videopremierleague {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-top: 20px;
+}
+main .sectionmain-premierleague .video-premierleague .parrafo-videopremierleague {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  width: 50%;
+  font-weight: 800;
+  padding-top: 20px;
+}
+main .sectionmain-premierleague .video-premierleague .video-yt-premier {
+  height: 700px;
+  width: 70%;
+  border-radius: 50px;
+  padding-bottom: 20px;
 }
 main .sectionmain-premierleague .secciontitulos-premierleague {
   padding-top: 10px;

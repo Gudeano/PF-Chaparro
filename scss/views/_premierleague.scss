@@ -5,6 +5,27 @@ main{
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
+        .video-premierleague{
+            @extend %flex-center;
+            flex-direction: column;
+            .titulo-videopremierleague{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                padding-top: 20px;
+            }
+            .parrafo-videopremierleague{
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+                width: 50%;
+                font-weight: 800;
+                padding-top: 20px;
+            }
+            .video-yt-premier{
+                height: 700px;
+                width: 70%;
+                border-radius: 50px;
+                padding-bottom: 20px
+            }
+        }
         .secciontitulos-premierleague {
             @extend %flex-center;
             padding-top: 10px;

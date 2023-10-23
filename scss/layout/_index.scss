@@ -5,7 +5,7 @@ main {
         flex-direction: column;
         text-align: center;
         .seccion-2-h2 {
-            padding-top: 20px;
+            @extend %font;
             padding-bottom: 10px;
             font-family: Forque;
             @extend %flex-center;
@@ -20,49 +20,44 @@ main {
         .jones-foto,
         .lewan-foto,
         .eusebio-foto {
-            height: 500px;
+            height: 710px;
+            border-radius: 20px;
         }
     }
     .seccion-3-cartas {
         .seccion-3-h2 {
             font-family: Forque;
-            font-size: 40px;
+            @extend %font;
             @extend %flex-center;
             color: rgb(0, 0, 0);
             margin: auto;
             background-color: #cdffff;
         }
-
         .div-3-mejores-ventas {
             background-color: #cdffff;
             @extend %flex-center;
             text-align: center;
-
             .cartas-alineacion {
                 @extend %flex-center;
                 flex-wrap: wrap;
-
                 .grilla {
                     display: grid;
                     grid-template-columns: repeat(5, 1fr);
                     grid-template-rows: repeat(2, auto);
                     gap: 10px;
-
                     .cartas-ventas {
-                        width: 150px;
+                        width: 175px;
                         height: auto;
                         background-color: #ffffff;
                         margin: 5px;
                         border-radius: 10px;
                         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
                         position: relative;
-
                         &:hover {
                             .texto-ventas {
                                 opacity: 1;
                             }
                         }
-
                         .foto-ventas {
                             border-radius: 6px;
                             max-width: 100%;
@@ -70,22 +65,20 @@ main {
                             filter: blur(0);
                             transition: filter 0.3s ease-in-out;
                         }
-
                         &:hover {
                             .foto-ventas {
                                 filter: blur(4px);
                             }
-
                             transform: scale(1.05);
                         }
-
                         .texto-ventas {
                             position: absolute;
+                            font-weight: 800;
                             top: 50%;
                             left: 50%;
                             transform: translate(-50%, -50%);
                             font-size: 12px;
-                            color: #fff;
+                            color: #ffffff;
                             padding: 10px;
                             border-radius: 5px;
                             width: 80%;
@@ -97,14 +90,12 @@ main {
             }
         }
     }
-
     .seccion-4-quien-deberia {
         background-color: #cdffff;
         @extend %flex-center;
         flex-direction: column;
-
         .seccion-4-h2 {
-            font-size: 40px;
+            @extend %font;
             font-family: Forque;
             @extend %flex-center;
             text-align: center;
@@ -113,18 +104,16 @@ main {
             padding-bottom: 10px;
             background-color: #cdffff;
         }
-
         .seccion-4-foto-p {
             @extend %flex-center;
             flex-direction: column;
-
             .seccion-4-foto {
-                width: 60%;
+                width: 90%;
                 display: flex;
             }
-
             .columnas-parrafos {
-
+                @extend %flex-center;
+                flex-direction: column;
                 .seccion-4-p-messi,
                 .seccion-4-p-mbappe,
                 .seccion-4-p-haaland {
@@ -133,9 +122,9 @@ main {
                     @extend %flex-center;
                     flex-direction: column;
                     padding-left: 8px;
-                    padding-top: 30px;
+                    padding-top: 40px;
                     text-align: justify;
-                    width: 800px;
+                    width: 970px;
                 }
             }
         }
