@@ -5,40 +5,100 @@ main{
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        .video-premierleague{
+        .video-premierleague {
             @extend %flex-center;
             flex-direction: column;
-            .titulo-videopremierleague{
+            .titulo-videopremierleague {
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                 padding-top: 20px;
             }
-            .parrafo-videopremierleague{
+            .parrafo-videopremierleague {
                 font-family:Verdana, Geneva, Tahoma, sans-serif;
                 text-align: center;
                 width: 50%;
                 font-weight: 800;
                 padding-top: 20px;
             }
-            .video-yt-premier{
-                height: 700px;
-                width: 70%;
-                border-radius: 50px;
-                padding-bottom: 20px
+            .video-yt-premier {
+                height: 500px;
+                width: 55%;
+                border-radius: 60px;
+                padding-bottom: 20px;
             }
         }
-        .secciontitulos-premierleague {
+        .goleadores-premier-h1 {
+            display: flex;
+            justify-content: center;
+            padding-top: 100px;
+            padding-bottom: 30px;
+            font-size: 40px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+        }
+        .mejores-goleadores-premier {
             @extend %flex-center;
-            padding-top: 10px;
-            .h1-premierleague {
-                font-size: 30px;
-                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            .cartas-goleadores-premier {
+                @extend %flex-center;
+                .grid-goleadores {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(2, auto);
+                    gap: 10px;
+                    .cartas-goleadores {
+                        width: 220px;
+                        height: auto;
+                        background-color: #ffffff;
+                        margin: 5px;
+                        border-radius: 50px;
+                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+                        position: relative;
+                        &:hover {
+                            .texto-goleadores {
+                                opacity: 1;
+                            }
+                        }
+                        .foto-goleadores {
+                            border-radius: 50px;
+                            max-width: 100%;
+                            height: 100%;
+                            filter: blur(0);
+                            transition: filter 0.3s ease-in-out;
+                        }
+                        &:hover {
+                            .foto-goleadores {
+                                filter: blur(4px);
+                            }
+                            transform: scale(1.05);
+                        }
+                        .texto-goleadores {
+                            position: absolute;
+                            font-weight: 800;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            font-size: 12px;
+                            color: #ffffff;
+                            padding: 10px;
+                            border-radius: 5px;
+                            width: 80%;
+                            opacity: 0;
+                            transition: opacity 0.3s ease-in-out;
+                        }
+                    }
+                }
             }
+        }
+        .h1-premierleague-anual {
+            padding-top: 30px;
+            @extend %flex-center;
+            font-size: 40px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
         .seccion-equipos-premierleague {
             @extend %flex-center;
             padding-top: 20px;
             .equipos-premier {
-                width: 100%;
+                width: 80%;
                 @extend %flex-center;
                 flex-wrap: wrap;
                 img{
@@ -52,7 +112,7 @@ main{
                     border: 2px solid black;
                     margin: 20px;
                     .imagen-equipo{
-                        .logos-equipos-city{
+                        .logos-equipos-city {
                             background-color: map-get($colores, celeste);
                         }
                         .logos-equipos-totten {
