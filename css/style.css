@@ -1,4 +1,4 @@
-main .sectionmain-laliga .seccion-equipos .equipos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .secciontitulos, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .h1-premierleague-anual, main .sectionmain-premierleague .mejores-goleadores-premier .cartas-goleadores-premier, main .sectionmain-premierleague .mejores-goleadores-premier, main .sectionmain-premierleague .video-premierleague, footer .footer .footer-social .footer-social-link, footer .footer .footer-social, footer .footer .footer-icon, footer .footer .footer-copyright, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi,
+main .sectionmain-laliga .seccion-equipos .equipos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .secciontitulos, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-copadelaliga .video-copadelaliga, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .h1-premierleague-anual, main .sectionmain-premierleague .mejores-goleadores-premier .cartas-goleadores-premier, main .sectionmain-premierleague .mejores-goleadores-premier, main .sectionmain-premierleague .video-premierleague, footer .footer .footer-social .footer-social-link, footer .footer .footer-social, footer .footer .footer-icon, footer .footer .footer-copyright, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi,
 main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-mbappe,
 main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-haaland, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos, main .seccion-4-quien-deberia .seccion-4-foto-p, main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-4-quien-deberia, main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion, main .seccion-3-cartas .div-3-mejores-ventas, main .seccion-3-cartas .seccion-3-h2, main .seccion-2-mejores-goleadores .seccion-2-h2, main .seccion-2-mejores-goleadores {
   display: flex;
@@ -411,6 +411,26 @@ main .sectionmain-copadelaliga {
   background-repeat: no-repeat;
   width: 100%;
 }
+main .sectionmain-copadelaliga .video-copadelaliga {
+  flex-direction: column;
+}
+main .sectionmain-copadelaliga .video-copadelaliga .titulo-copadelaliga {
+  padding-top: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+main .sectionmain-copadelaliga .video-copadelaliga .parrafo-videocopadelaliga {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  width: 50%;
+  font-weight: 800;
+  padding-top: 20px;
+}
+main .sectionmain-copadelaliga .video-copadelaliga .video-yt-copadelaliga {
+  height: 600px;
+  width: 70%;
+  border-radius: 60px;
+  padding-bottom: 20px;
+}
 main .sectionmain-copadelaliga .secciontitulos {
   flex-direction: column;
   padding-top: 30px;
@@ -433,7 +453,7 @@ main .sectionmain-copadelaliga .seccion-equipos .equipos img {
   width: 100%;
 }
 main .sectionmain-copadelaliga .seccion-equipos .equipos .equipo {
-  width: 300px;
+  width: 400px;
   box-shadow: 0 0 20px rgb(0, 0, 0);
   border-radius: 5px;
   background-color: rgb(255, 255, 255);

@@ -5,6 +5,27 @@ main{
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
+        .video-copadelaliga{
+            @extend %flex-center;
+            flex-direction: column;
+            .titulo-copadelaliga{
+                padding-top: 20px;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+            }
+            .parrafo-videocopadelaliga{
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+                width: 50%;
+                font-weight: 800;
+                padding-top: 20px;
+            }
+            .video-yt-copadelaliga{
+                height: 600px;
+                width: 70%;
+                border-radius: 60px;
+                padding-bottom: 20px;
+            }
+        }
         .secciontitulos {
             @extend %flex-center;
             flex-direction: column;
@@ -28,7 +49,7 @@ main{
                     width: 100%;
                 }
                 .equipo {
-                    width: 300px;
+                    width: 400px;
                     box-shadow: 0 0 20px rgb(0, 0, 0);
                     border-radius: 5px;
                     background-color: rgb(255, 255, 255);
