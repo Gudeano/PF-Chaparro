@@ -26,6 +26,35 @@ main{
                 padding-bottom: 20px;
             }
         }
+        .titulos-goleadores-historicos-lfp{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            @extend %flex-center;
+            padding-top: 20px;
+            padding-bottom: 30px
+        }
+        .goleadores-historicos-lfp{
+            @extend %flex-center;
+            .titulo-parrafo-lfp{
+                flex-direction: column;
+                @extend %flex-center;
+                width: 50%;
+                .nombre-goleadores-historicos-lfp{
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                }
+                .parrafo-goleadores-historicos-lfp{
+                    text-align: center;
+                    width: 75%;
+                    font-weight: 800;
+                    padding-top: 20px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    text-align: justify;
+                }
+            }
+            .fotos-goleadores-historicos-lfp{
+                width: 30%;
+                padding-bottom: 30px;
+            }
+        }
         .secciontitulos {
             @extend %flex-center;
             flex-direction: column;
