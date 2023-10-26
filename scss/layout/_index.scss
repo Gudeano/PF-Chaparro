@@ -1,4 +1,22 @@
 main {
+    .seccion-1-para-que {
+        @include flex(flex,row,center,center);
+        background-color: #cdffff;
+        .seccion-1-h1-p {
+            flex-direction: column;
+            text-align: center;
+            padding-top: 30px;
+            .seccion-1-parrafo {
+                width: 890px;
+                font-size: 20px;
+                padding-top: 10px;
+                text-align: justify;
+            }
+            .seccion-1-foto {
+                height: 600px;
+            }
+        }
+    }
     .seccion-2-mejores-goleadores {
         background-color: #cdffff;
         @extend %flex-center;

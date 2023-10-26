@@ -43,13 +43,13 @@
         .cartas-alineacion{
           .grilla{
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            grid-template-rows: repeat(2, auto);
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, auto);
             gap: 10px;
             .cartas-ventas {
-              width: 60px;
+              width: 90%;
               .texto-ventas {
-                font-size: 6px;
+                font-size: 20px;
                 padding: 0px;
               }
             }
