@@ -12,50 +12,82 @@ main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-3-cartas .seccion-3-h
 }
 
 .torneos-ganados-seriea .caja-seriea:nth-child(1) {
-  width: 90px;
-  height: 100px;
+  width: 10%;
+  height: 70px;
+  background-image: url("../img/maximos-ganadores-seriea/imagen-8.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
   background-color: rgb(105, 153, 241);
 }
 
 .torneos-ganados-seriea .caja-seriea:nth-child(2) {
-  width: 180px;
-  height: 100px;
+  width: 20%;
+  height: 70px;
+  background-image: url("../img/maximos-ganadores-seriea/imagen-7.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
   background-color: rgb(161, 157, 157);
 }
 
 .torneos-ganados-seriea .caja-seriea:nth-child(3) {
-  width: 270px;
-  height: 100px;
+  width: 30%;
+  height: 70px;
+  background-image: url("../img/maximos-ganadores-seriea/imagen-6.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
   background-color: rgb(83, 83, 240);
 }
 
 .torneos-ganados-seriea .caja-seriea:nth-child(4) {
-  width: 360px;
-  height: 100px;
+  width: 40%;
+  height: 70px;
+  background-image: url("../img/maximos-ganadores-seriea/imagen-5.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
   background-color: rgb(128, 0, 0);
 }
 
 .torneos-ganados-seriea .caja-seriea:nth-child(5) {
-  width: 450px;
-  height: 100px;
+  width: 50%;
+  height: 70px;
+  background-image: url("../img/maximos-ganadores-seriea/imagen-4.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
   background-color: rgb(239, 46, 46);
 }
 
 .torneos-ganados-seriea .caja-seriea:nth-child(6) {
-  width: 540px;
-  height: 100px;
+  width: 60%;
+  height: 70px;
+  background-image: url("../img/maximos-ganadores-seriea/imagen-3.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
   background-color: rgb(6, 6, 245);
 }
 
 .torneos-ganados-seriea .caja-seriea:nth-child(7) {
-  width: 630px;
-  height: 100px;
+  width: 70%;
+  height: 70px;
+  background-image: url("../img/maximos-ganadores-seriea/imagen-2.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
   background-color: rgb(114, 10, 10);
 }
 
 .torneos-ganados-seriea .caja-seriea:nth-child(8) {
-  width: 720px;
-  height: 100px;
+  width: 80%;
+  height: 70px;
+  background-image: url("../img/maximos-ganadores-seriea/imagen-1.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
   background-color: rgb(80, 80, 80);
 }
 
@@ -648,6 +680,8 @@ main .sectionmain-seriea .titulo-p-general-seriea {
 main .sectionmain-seriea .titulo-p-general-seriea .titulo-seriea-general {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding-top: 20px;
+  color: black;
+  -webkit-text-stroke: 1px white;
 }
 main .sectionmain-seriea .titulo-p-general-seriea .para-que-seriea {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -658,6 +692,8 @@ main .sectionmain-seriea .titulo-p-general-seriea .para-que-seriea {
 main .sectionmain-seriea .titulo-ganados-seriea {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding-top: 40px;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px white;
 }
 main .sectionmain-seriea .foto-seriea-titulo {
   width: 30%;
@@ -670,19 +706,35 @@ main .sectionmain-seriea .torneos-ganados-seriea {
 }
 main .sectionmain-seriea .torneos-ganados-seriea .caja-seriea {
   border: 1px solid rgb(0, 0, 0);
-  margin: 20px;
+  margin: 5px;
+  position: relative;
+  overflow: hidden;
 }
 main .sectionmain-seriea .torneos-ganados-seriea .caja-seriea .equipo-seriea-ganados {
   display: flex;
-  justify-content: center;
   font-size: 20px;
   width: 100%;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   flex-direction: column;
-  text-align: center;
+  padding-left: 10px;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease, filter 0.3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.24);
+  filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  justify-content: center;
 }
-main .sectionmain-seriea .torneos-ganados-seriea .caja-seriea .equipo-seriea-ganados .numero-seriea-ganados {
-  padding-top: 20px;
+main .sectionmain-seriea .torneos-ganados-seriea .caja-seriea:hover .equipo-seriea-ganados {
+  opacity: 1;
+  filter: blur(0);
 }
 main .sectionmain-seriea .secciontitulos {
   padding-top: 30px;
@@ -690,6 +742,7 @@ main .sectionmain-seriea .secciontitulos {
 main .sectionmain-seriea .secciontitulos .h1-seriea {
   font-size: 30px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke: 1px white;
 }
 main .sectionmain-seriea .seccion-equipos {
   padding-top: 20px;

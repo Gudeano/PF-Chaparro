@@ -1,4 +1,4 @@
-$colores:(
+$colores: (
     celeste: rgb(0, 255, 255),
     gris: rgb(169, 168, 168),
     rojo: rgb(255, 1, 1),
@@ -21,7 +21,7 @@ $colores:(
     naranja: rgb(255, 166, 0),
 );
 
-$colores-seriea:(
+$colores-seriea: (
     8: rgb(80, 80, 80),
     7: rgb(114, 10, 10),
     6: rgb(6, 6, 245),
@@ -30,4 +30,15 @@ $colores-seriea:(
     3: rgb(83, 83, 240),
     2: rgb(161, 157, 157),
     1: rgb(105, 153, 241),
+);
+
+$imagenes-seriea: (
+    8:"../img/maximos-ganadores-seriea/imagen-1.png",
+    7:"../img/maximos-ganadores-seriea/imagen-2.png",
+    6:"../img/maximos-ganadores-seriea/imagen-3.png",
+    5:"../img/maximos-ganadores-seriea/imagen-4.png",
+    4:"../img/maximos-ganadores-seriea/imagen-5.png",
+    3:"../img/maximos-ganadores-seriea/imagen-6.png",
+    2:"../img/maximos-ganadores-seriea/imagen-7.png",
+    1:"../img/maximos-ganadores-seriea/imagen-8.png",
 );
