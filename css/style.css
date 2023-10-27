@@ -1,4 +1,4 @@
-main .sectionmain-laliga .seccion-equipos .equipos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .secciontitulos, main .sectionmain-seriea .titulo-p-general-seriea .para-que-seriea, main .sectionmain-seriea .titulo-p-general-seriea .titulo-seriea-general, main .sectionmain-seriea .titulo-p-general-seriea, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-copadelaliga .goleadores-historicos-lfp .titulo-parrafo-lfp, main .sectionmain-copadelaliga .goleadores-historicos-lfp, main .sectionmain-copadelaliga .titulos-goleadores-historicos-lfp, main .sectionmain-copadelaliga .video-copadelaliga, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .h1-premierleague-anual, main .sectionmain-premierleague .mejores-goleadores-premier .cartas-goleadores-premier, main .sectionmain-premierleague .mejores-goleadores-premier, main .sectionmain-premierleague .video-premierleague, footer .footer .footer-social .footer-social-link, footer .footer .footer-social, footer .footer .footer-icon, footer .footer .footer-copyright, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi,
+main .sectionmain-laliga .seccion-equipos .equipos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .secciontitulos, main .sectionmain-seriea .titulo-ganados-seriea, main .sectionmain-seriea .titulo-p-general-seriea .para-que-seriea, main .sectionmain-seriea .titulo-p-general-seriea .titulo-seriea-general, main .sectionmain-seriea .titulo-p-general-seriea, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-copadelaliga .goleadores-historicos-lfp .titulo-parrafo-lfp, main .sectionmain-copadelaliga .goleadores-historicos-lfp, main .sectionmain-copadelaliga .titulos-goleadores-historicos-lfp, main .sectionmain-copadelaliga .video-copadelaliga, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .h1-premierleague-anual, main .sectionmain-premierleague .mejores-goleadores-premier .cartas-goleadores-premier, main .sectionmain-premierleague .mejores-goleadores-premier, main .sectionmain-premierleague .video-premierleague, footer .footer .footer-social .footer-social-link, footer .footer .footer-social, footer .footer .footer-icon, footer .footer .footer-copyright, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi,
 main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-mbappe,
 main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-haaland, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos, main .seccion-4-quien-deberia .seccion-4-foto-p, main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-4-quien-deberia, main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion, main .seccion-3-cartas .div-3-mejores-ventas, main .seccion-3-cartas .seccion-3-h2, main .seccion-2-mejores-goleadores .seccion-2-h2, main .seccion-2-mejores-goleadores {
   display: flex;
@@ -647,12 +647,20 @@ main .sectionmain-seriea .titulo-p-general-seriea {
 }
 main .sectionmain-seriea .titulo-p-general-seriea .titulo-seriea-general {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-top: 20px;
 }
 main .sectionmain-seriea .titulo-p-general-seriea .para-que-seriea {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 40%;
-  border: 2px solid black;
+  width: 30%;
   margin: 20px;
+  font-weight: bold;
+}
+main .sectionmain-seriea .titulo-ganados-seriea {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-top: 40px;
+}
+main .sectionmain-seriea .foto-seriea-titulo {
+  width: 30%;
 }
 main .sectionmain-seriea .torneos-ganados-seriea {
   padding-top: 20px;

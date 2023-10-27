@@ -11,14 +11,23 @@ main{
             .titulo-seriea-general{
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                 @extend %flex-center;
+                padding-top: 20px;
             }
             .para-que-seriea{
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                width: 40%;
+                width: 30%;
                 @extend %flex-center;
-                border: 2px solid black;
                 margin: 20px;
+                font-weight: bold;
             }
+        }
+        .titulo-ganados-seriea{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            @extend %flex-center;
+            padding-top: 40px;
+        }
+        .foto-seriea-titulo{
+            width: 30%;
         }
         .torneos-ganados-seriea{
             padding-top: 20px;
