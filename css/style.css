@@ -1,4 +1,4 @@
-main .sectionmain-laliga .seccion-equipos .equipos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .secciontitulos, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-copadelaliga .goleadores-historicos-lfp .titulo-parrafo-lfp, main .sectionmain-copadelaliga .goleadores-historicos-lfp, main .sectionmain-copadelaliga .titulos-goleadores-historicos-lfp, main .sectionmain-copadelaliga .video-copadelaliga, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .h1-premierleague-anual, main .sectionmain-premierleague .mejores-goleadores-premier .cartas-goleadores-premier, main .sectionmain-premierleague .mejores-goleadores-premier, main .sectionmain-premierleague .video-premierleague, footer .footer .footer-social .footer-social-link, footer .footer .footer-social, footer .footer .footer-icon, footer .footer .footer-copyright, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi,
+main .sectionmain-laliga .seccion-equipos .equipos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .secciontitulos, main .sectionmain-seriea .titulo-p-general-seriea .para-que-seriea, main .sectionmain-seriea .titulo-p-general-seriea .titulo-seriea-general, main .sectionmain-seriea .titulo-p-general-seriea, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-copadelaliga .goleadores-historicos-lfp .titulo-parrafo-lfp, main .sectionmain-copadelaliga .goleadores-historicos-lfp, main .sectionmain-copadelaliga .titulos-goleadores-historicos-lfp, main .sectionmain-copadelaliga .video-copadelaliga, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .h1-premierleague-anual, main .sectionmain-premierleague .mejores-goleadores-premier .cartas-goleadores-premier, main .sectionmain-premierleague .mejores-goleadores-premier, main .sectionmain-premierleague .video-premierleague, footer .footer .footer-social .footer-social-link, footer .footer .footer-social, footer .footer .footer-icon, footer .footer .footer-copyright, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi,
 main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-mbappe,
 main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-haaland, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos, main .seccion-4-quien-deberia .seccion-4-foto-p, main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-4-quien-deberia, main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion, main .seccion-3-cartas .div-3-mejores-ventas, main .seccion-3-cartas .seccion-3-h2, main .seccion-2-mejores-goleadores .seccion-2-h2, main .seccion-2-mejores-goleadores {
   display: flex;
@@ -9,6 +9,54 @@ main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-
 main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-3-cartas .seccion-3-h2, main .seccion-2-mejores-goleadores .seccion-2-h2 {
   padding-top: 100px;
   font-size: 50px;
+}
+
+.torneos-ganados-seriea .caja-seriea:nth-child(1) {
+  width: 90px;
+  height: 100px;
+  background-color: rgb(105, 153, 241);
+}
+
+.torneos-ganados-seriea .caja-seriea:nth-child(2) {
+  width: 180px;
+  height: 100px;
+  background-color: rgb(161, 157, 157);
+}
+
+.torneos-ganados-seriea .caja-seriea:nth-child(3) {
+  width: 270px;
+  height: 100px;
+  background-color: rgb(83, 83, 240);
+}
+
+.torneos-ganados-seriea .caja-seriea:nth-child(4) {
+  width: 360px;
+  height: 100px;
+  background-color: rgb(128, 0, 0);
+}
+
+.torneos-ganados-seriea .caja-seriea:nth-child(5) {
+  width: 450px;
+  height: 100px;
+  background-color: rgb(239, 46, 46);
+}
+
+.torneos-ganados-seriea .caja-seriea:nth-child(6) {
+  width: 540px;
+  height: 100px;
+  background-color: rgb(6, 6, 245);
+}
+
+.torneos-ganados-seriea .caja-seriea:nth-child(7) {
+  width: 630px;
+  height: 100px;
+  background-color: rgb(114, 10, 10);
+}
+
+.torneos-ganados-seriea .caja-seriea:nth-child(8) {
+  width: 720px;
+  height: 100px;
+  background-color: rgb(80, 80, 80);
 }
 
 * {
@@ -593,6 +641,40 @@ main .sectionmain-seriea {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+}
+main .sectionmain-seriea .titulo-p-general-seriea {
+  flex-direction: column;
+}
+main .sectionmain-seriea .titulo-p-general-seriea .titulo-seriea-general {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+main .sectionmain-seriea .titulo-p-general-seriea .para-que-seriea {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 40%;
+  border: 2px solid black;
+  margin: 20px;
+}
+main .sectionmain-seriea .torneos-ganados-seriea {
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+main .sectionmain-seriea .torneos-ganados-seriea .caja-seriea {
+  border: 1px solid rgb(0, 0, 0);
+  margin: 20px;
+}
+main .sectionmain-seriea .torneos-ganados-seriea .caja-seriea .equipo-seriea-ganados {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  width: 100%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  flex-direction: column;
+  text-align: center;
+}
+main .sectionmain-seriea .torneos-ganados-seriea .caja-seriea .equipo-seriea-ganados .numero-seriea-ganados {
+  padding-top: 20px;
 }
 main .sectionmain-seriea .secciontitulos {
   padding-top: 30px;

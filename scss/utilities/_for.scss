@@ -1,0 +1,9 @@
+@for $i from 1 through 8 {
+    .torneos-ganados-seriea {
+        .caja-seriea:nth-child(#{$i}) {
+            width: 90px * $i;
+            height: 100px;
+            background-color: map-get($colores-seriea, $i);
+        }
+    }
+}
