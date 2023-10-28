@@ -123,6 +123,22 @@
         text-align: center;
         padding-top: 100px;
       }
+      .seccion-equipos-premierleague {
+        .equipos-premier {
+          display: flex;
+          justify-content: center;
+          .equipo {
+            width: 160px;
+          }
+        }
+        .grilla-premier-mobile{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(10, 1fr);
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+        }
+      }
     }
 
     /*COPA DE LA LIGA*/
@@ -164,6 +180,20 @@
           font-size: 30px;
         }
       }
+      .seccion-equipos {
+        .grilla-laliga-mobile{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(10, 1fr);
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+        }
+        .equipos {
+          .equipo {
+            width: 160px;
+          }
+        }
+      }
     }
 
     /* SERIE A */
@@ -189,6 +219,13 @@
             text-align: center;
             font-size: 38px;
             padding-top: 30px;
+          }
+        }
+        .seccion-equipos {
+          .equipos {
+            .equipo{
+              width: 40%;
+            }
           }
         }
       }
@@ -240,9 +277,24 @@
           font-size: 60px;
         }
       }
+      .seccion-equipos {
+        .grilla-laliga-mobile{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: repeat(10, 1fr);
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+        }
+        .equipos {
+          .equipo {
+            width: 160px;
+          }
+        }
+      }
     }  
   }
   
+  /* FOOTER*/
   
   footer{
     .footer {

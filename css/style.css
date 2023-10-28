@@ -1186,6 +1186,20 @@ main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .perdid
     text-align: center;
     padding-top: 100px;
   }
+  main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier {
+    display: flex;
+    justify-content: center;
+  }
+  main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier .equipo {
+    width: 160px;
+  }
+  main .sectionmain-premierleague .seccion-equipos-premierleague .grilla-premier-mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
   main .sectionmain-copadelaliga .video-copadelaliga .titulo-copadelaliga {
     text-align: center;
     font-size: 40px;
@@ -1218,6 +1232,16 @@ main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .perdid
     text-align: center;
     font-size: 30px;
   }
+  main .sectionmain-copadelaliga .seccion-equipos .grilla-laliga-mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  main .sectionmain-copadelaliga .seccion-equipos .equipos .equipo {
+    width: 160px;
+  }
   main .sectionmain-seriea .titulo-p-general-seriea .para-que-seriea {
     width: 90%;
     text-align: justify;
@@ -1235,6 +1259,9 @@ main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .perdid
     text-align: center;
     font-size: 38px;
     padding-top: 30px;
+  }
+  main .sectionmain-seriea .seccion-equipos .equipos .equipo {
+    width: 40%;
   }
   main .sectionmain-laliga .titulo-p-paraque-laliga .titulo-laliga {
     font-size: 50px;
@@ -1270,6 +1297,17 @@ main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .perdid
     text-align: center;
     font-size: 60px;
   }
+  main .sectionmain-laliga .seccion-equipos .grilla-laliga-mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  main .sectionmain-laliga .seccion-equipos .equipos .equipo {
+    width: 160px;
+  }
+  /* FOOTER*/
   footer .footer {
     background-color: rgb(50, 49, 49);
     align-items: center;
