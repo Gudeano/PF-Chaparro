@@ -11,6 +11,7 @@ main{
             .titulo-videopremierleague {
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                 padding-top: 20px;
+                -webkit-text-stroke: 1px white;
             }
             .parrafo-videopremierleague {
                 font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -32,7 +33,8 @@ main{
             padding-top: 100px;
             padding-bottom: 30px;
             font-size: 40px;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            -webkit-text-stroke: 1px white;
         }
         .mejores-goleadores-premier {
             @extend %flex-center;
@@ -93,6 +95,7 @@ main{
             @extend %flex-center;
             font-size: 40px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            -webkit-text-stroke: 1px white;
         }
         .seccion-equipos-premierleague {
             @extend %flex-center;

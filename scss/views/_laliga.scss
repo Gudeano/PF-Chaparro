@@ -1,26 +1,125 @@
-main{
+main {
     .sectionmain-laliga {
         background-image: url(../img/Backgrounds/background\ laliga.webp);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
+
+        .titulo-p-paraque-laliga {
+            @extend %flex-center;
+            flex-direction: column;
+            .titulo-laliga {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                -webkit-text-stroke: 0.7px white;
+                padding-top: 20px;
+                color: black;
+            }
+            .p-laliga {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 50%;
+                font-weight: 800;
+                color: black;
+            }
+        }
+        .div-champions-madrid {
+            @extend %flex-center;
+            flex-direction: column;
+            .titulo-champions-madrid {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                color: black;
+                -webkit-text-stroke: 0.7px white;
+                padding-top: 50px;
+            }
+            .video-champions-madrid {
+                width: 50%;
+                height: 400px;
+                box-shadow: 0 0 20px black;
+                border-radius: 30px;
+            }
+        }
+        .seccion-equipos-ganadores-internacional {
+            @extend %flex-center;
+            .titulo-equipos-españoles {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                color: black;
+                padding-top: 60px;
+                -webkit-text-stroke: 0.7px white;
+                padding-bottom: 20px;
+            }
+        }
+        .equipos-españoles {
+            @extend %flex-center;
+            gap: 20px;
+            .equipo-español {
+                @extend %flex-center;
+                gap: 20px;
+                .dos-fotos-españolas {
+                    position: relative;
+                    width: 250px;
+                    transition: all .3s ease;
+                    .equipo-hover-españoles:first-child {
+                        box-shadow: 0 60px 60px -60px rgb(22, 22, 109);
+                        border-radius: 4px;
+                        object-fit: cover;
+                        width: 100%;
+                    }
+                    .jugador-hover-españoles {
+                        position: absolute;
+                        width: 210px;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        transform: translateY(25%);
+                        transition: .3s ease;
+                        opacity: 0;
+                    }
+                    &:hover {
+                        transform: perspective(250px) rotateX(2deg) translateY(-5%) translateZ(0);
+                        .jugador-hover-españoles {
+                            opacity: 1;
+                            transform: translateY(10%);
+                        }
+                    }
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        bottom: 0;
+                        height: 100%;
+                        width: 100%;
+                        background-image: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0) 95%);
+                        opacity: 0;
+                        transition: all .3s ease;
+                    }
+                    &:hover::before {
+                        opacity: 1;
+                    }
+                }
+
+            }
+        }
+
         .secciontitulos {
             @extend %flex-center;
             padding-top: 30px;
-            .h1-laliga {
+
+            .h2-laliga {
                 font-size: 30px;
-                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+                -webkit-text-stroke: 0.7px white;
             }
         }
         .seccion-equipos {
             @extend %flex-center;
             padding-top: 20px;
+
             .equipos {
-                width: 100%;
+                width: 70%;
                 @extend %flex-center;
                 flex-wrap: wrap;
-                img{
+                img {
                     width: 100%;
                 }
                 .equipo {
@@ -30,85 +129,109 @@ main{
                     background-color: rgb(255, 255, 255);
                     border: 2px solid black;
                     margin: 20px;
-                    .imagen-equipo{
+
+                    .imagen-equipo {
                         .logos-equipos-madrid {
                             background-color: map-get($colores, gris);
-                        }  
+                        }
+
                         .logos-equipos-girona {
                             background-color: map-get($colores, amarillo);
-                        }  
+                        }
+
                         .logos-equipos-barcelona {
                             background-color: map-get($colores, marron);
-                        }  
+                        }
+
                         .logos-equipos-atlmadrid {
                             background-color: map-get($colores, piel);
-                        }  
+                        }
+
                         .logos-equipos-atlbilbao {
                             background-color: map-get($colores, marron);
-                        }  
+                        }
+
                         .logos-equipos-cadiz {
                             background-color: map-get($colores, amarillo);
-                        }  
+                        }
+
                         .logos-equipos-betis {
                             background-color: map-get($colores, verde);
-                        }  
+                        }
+
                         .logos-equipos-sociedad {
                             background-color: map-get($colores, azul);
-                        }  
+                        }
+
                         .logos-equipos-osasuna {
                             background-color: map-get($colores, marron);
-                        }  
+                        }
+
                         .logos-equipos-alaves {
                             background-color: map-get($colores, azul-gris);
-                        }  
+                        }
+
                         .logos-equipos-valencia {
                             background-color: map-get($colores, naranja);
-                        }  
+                        }
+
                         .logos-equipos-rayo {
                             background-color: map-get($colores, rosa);
-                        }  
+                        }
+
                         .logos-equipos-celta {
                             background-color: map-get($colores, azul-gris);
-                        }  
+                        }
+
                         .logos-equipos-getafe {
                             background-color: map-get($colores, azul);
-                        }  
+                        }
+
                         .logos-equipos-villarreal {
                             background-color: map-get($colores, amarillo);
-                        }  
+                        }
+
                         .logos-equipos-granada {
                             background-color: map-get($colores, rojo);
-                        }  
+                        }
+
                         .logos-equipos-mallo {
                             background-color: map-get($colores, amarillo-ocre);
-                        }  
+                        }
+
                         .logos-equipos-palmas {
                             background-color: map-get($colores, amarillo);
-                        }  
+                        }
+
                         .logos-equipos-almeria {
                             background-color: map-get($colores, rosa);
-                        }  
+                        }
+
                         .logos-equipos-sevilla {
                             background-color: map-get($colores, rojo);
-                        }  
+                        }
                     }
-                .texto-equipo {
+
+                    .texto-equipo {
                         margin-top: 10px;
                         text-align: center;
                         border: 1px solid rgb(255, 255, 255);
                         background-color: rgb(255, 255, 255);
-                        .ganados-hover{
-                            &:hover{
+
+                        .ganados-hover {
+                            &:hover {
                                 color: rgb(9, 235, 9);
                             }
                         }
-                        .empatados-hover{
-                            &:hover{
+
+                        .empatados-hover {
+                            &:hover {
                                 color: orange;
                             }
                         }
-                        .perdidos-hover{
-                            &:hover{
+
+                        .perdidos-hover {
+                            &:hover {
                                 color: red;
                             }
                         }

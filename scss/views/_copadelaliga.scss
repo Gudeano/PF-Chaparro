@@ -10,7 +10,8 @@ main{
             flex-direction: column;
             .titulo-copadelaliga{
                 padding-top: 20px;
-                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                -webkit-text-stroke: 1px white;
             }
             .parrafo-videocopadelaliga{
                 font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -30,7 +31,8 @@ main{
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             @extend %flex-center;
             padding-top: 20px;
-            padding-bottom: 30px
+            padding-bottom: 30px;
+            -webkit-text-stroke: 1px white;
         }
         .goleadores-historicos-lfp{
             @extend %flex-center;
@@ -59,6 +61,7 @@ main{
             @extend %flex-center;
             flex-direction: column;
             padding-top: 30px;
+            -webkit-text-stroke: 1px white;
             .h1-copadelaliga {
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             }
@@ -196,7 +199,8 @@ main{
             .grupo-b {
                 @extend %flex-center;
                 .h2-grupob{
-                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    -webkit-text-stroke: 1px white;
                 }
             }
         }

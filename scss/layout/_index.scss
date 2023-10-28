@@ -6,6 +6,9 @@ main {
             flex-direction: column;
             text-align: center;
             padding-top: 30px;
+            .seccion-1-titulo {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
             .seccion-1-parrafo {
                 width: 890px;
                 font-size: 20px;
