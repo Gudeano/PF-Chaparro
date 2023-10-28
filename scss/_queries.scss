@@ -3,21 +3,19 @@
   
   main{
     .seccion-1-para-que {
+      display: flex;
       justify-content: center;
       align-items: center;
-      display: flex;
       background-color: #cdffff;
       flex-direction: column;
       .seccion-1-h1-p {
         display: flex;
         justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
         .seccion-1-parrafo {
           padding-top: 10px;
-          width: 400px;
-          font-size: 15px
+          width: 90%;
+          margin-left: 20px;
+          font-size: 15px;
         }
         .seccion-1-foto {
           height: 350px;
@@ -30,8 +28,11 @@
       align-items: center;
       flex-direction: column;
       text-align: center;
+      .seccion-2-h2 {
+        font-size: 20px;
+      }
       .cristiano-foto, .messi-foto, .bican-foto, .pele-foto, .romario-foto, .muller-foto, .puskas-foto, .jones-foto, .lewan-foto, .eusebio-foto {
-        height: 250px;
+        height: 280px;
       }
     }
     .seccion-3-cartas{
@@ -41,12 +42,13 @@
       }
       .div-3-mejores-ventas{
         .cartas-alineacion{
-          .grilla{
+          .grilla {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(1, auto);
             gap: 10px;
             .cartas-ventas {
+              display: flex;
               width: 90%;
               .texto-ventas {
                 font-size: 20px;
@@ -71,6 +73,7 @@
           max-width: 100%;
           height: 80%;
           padding: 10px 0;
+          border-radius: 15px;
         }
         .columnas-parrafos {
           display: flex;
@@ -82,60 +85,165 @@
             padding-top: 20px;
             justify-content: center;
             font-size: 14px;
-            text-align: center;
-            width: 400px;
+            text-align: justify;
+            width: 350px;
           }
         }
       }
     }
-    .sectionmain-premierleague{
-      .secciontitulos-premierleague{
-        .h1-premierleague{
-        font-size: 20px;
-        padding-top: 10px;
-        display: flex;
-        justify-content: center;
+
+    /*PREMIER LEAGUE MOBILE*/
+
+    .sectionmain-premierleague {
+      .video-premierleague {
         text-align: center;
+        .parrafo-videopremierleague {
+          width: 80%;
+        }
+        .video-yt-premier {
+          width: 320px;
+          height: 300px;
+          border-radius: 40px;
         }
       }
+      .goleadores-premier-h1 {
+        text-align: center;
+      }
+      .mejores-goleadores-premier {
+        .cartas-goleadores-premier {
+          .grid-goleadores {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, auto);
+            gap: 10px;
+          }
+        }
+      }
+      .h1-premierleague-anual {
+        text-align: center;
+        padding-top: 100px;
+      }
     }
+
+    /*COPA DE LA LIGA*/
+
     .sectionmain-copadelaliga{
-      .secciontitulos{
-        .h1-copadelaliga{
-        font-size: 20px;
-        padding-top: 10px;
-        display: flex;
-        justify-content: center;
+      .video-copadelaliga {
+        .titulo-copadelaliga {
+          text-align: center;
+          font-size: 40px;
+        }
+        .parrafo-videocopadelaliga {
+          width: 90%;
+        }
+        .video-yt-copadelaliga {
+          width: 90%;
+          height: 350px;
+        }
+      }
+      .titulos-goleadores-historicos-lfp {
         text-align: center;
       }
-        .h2-copadelaliga{
-          font-size: 20px;
+      .goleadores-historicos-lfp {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .titulo-parrafo-lfp {
+          width: 100%;
+          .nombre-goleadores-historicos-lfp {
+            font-size: 30px;
+          }
+        }
+        .fotos-goleadores-historicos-lfp {
+          width: 90%;
+        }
+      }
+      .secciontitulos {
+        .h2-copadelaliga {
+          text-align: center;
+          font-size: 30px;
         }
       }
     }
+
+    /* SERIE A */
+
     .sectionmain-seriea{
-      .secciontitulos{
-        .h1-seriea{
-        font-size: 20px;
-        padding-top: 10px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
+      .titulo-p-general-seriea {
+          .para-que-seriea {
+            width: 90%;
+            text-align: justify;
+          }
+          .foto-seriea-titulo {
+            width: 300px;
+          }
+        }
+        .titulo-ganados-seriea {
+          text-align: center;
+        }
+        .torneos-ganados-seriea {
+          padding-left: 10px;
+        }
+        .secciontitulos {
+          .h1-seriea {
+            text-align: center;
+            font-size: 38px;
+            padding-top: 30px;
+          }
         }
       }
-    }
-    .sectionmain-laliga{
-      .secciontitulos{
-        .h1-laliga{
-        font-size: 20px;
-        padding-top: 10px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
+
+      /* LA LIGA */
+
+    .sectionmain-laliga {
+      .titulo-p-paraque-laliga {
+        .titulo-laliga {
+          font-size: 50px;
+        }
+        .p-laliga {
+          width: 90%;
+          text-align: justify;
         }
       }
-    }
+      .div-champions-madrid {
+        .titulo-champions-madrid {
+          text-align: center;
+          padding-bottom: 20px;
+          font-size: 30px;
+        }
+        .video-champions-madrid {
+          width: 90%;
+          height: 300px;
+        }
+      }
+      .seccion-equipos-ganadores-internacional {
+        .titulo-equipos-españoles {
+          text-align: center;
+          font-size: 30px;
+        }
+      }
+      .equipos-españoles {
+        .grilla-española {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          .dos-fotos-españolas {
+            padding-bottom: 15px;
+          }
+        }
+      }
+      .secciontitulos {
+        .h2-laliga {
+          text-align: center;
+          font-size: 60px;
+        }
+      }
+    }  
   }
+  
+  
   footer{
     .footer {
       background-color: rgb(50, 49, 49);

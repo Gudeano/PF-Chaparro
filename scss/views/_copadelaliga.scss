@@ -9,9 +9,11 @@ main{
             @extend %flex-center;
             flex-direction: column;
             .titulo-copadelaliga{
-                padding-top: 20px;
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                -webkit-text-stroke: 1px white;
+                -webkit-text-stroke: 0.7px white;
+                padding-top: 20px;
+                color: black;
+                font-size: 70px;
             }
             .parrafo-videocopadelaliga{
                 font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -62,11 +64,15 @@ main{
             flex-direction: column;
             padding-top: 30px;
             -webkit-text-stroke: 1px white;
-            .h1-copadelaliga {
-                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            }
             .h2-copadelaliga {
+                font-size: 40px;
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                -webkit-text-stroke: 1px white;
+                padding-bottom: 30px;
+            }
+            .h3-copadelaliga {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 30px;
             }
         }
         .seccion-equipos {

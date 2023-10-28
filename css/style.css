@@ -1,5 +1,5 @@
 @charset "UTF-8";
-main .sectionmain-laliga .seccion-equipos .equipos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-laliga .equipos-españoles .equipo-español, main .sectionmain-laliga .equipos-españoles, main .sectionmain-laliga .seccion-equipos-ganadores-internacional, main .sectionmain-laliga .div-champions-madrid, main .sectionmain-laliga .titulo-p-paraque-laliga, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .secciontitulos, main .sectionmain-seriea .titulo-ganados-seriea, main .sectionmain-seriea .titulo-p-general-seriea .para-que-seriea, main .sectionmain-seriea .titulo-p-general-seriea .titulo-seriea-general, main .sectionmain-seriea .titulo-p-general-seriea, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-copadelaliga .goleadores-historicos-lfp .titulo-parrafo-lfp, main .sectionmain-copadelaliga .goleadores-historicos-lfp, main .sectionmain-copadelaliga .titulos-goleadores-historicos-lfp, main .sectionmain-copadelaliga .video-copadelaliga, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .h1-premierleague-anual, main .sectionmain-premierleague .mejores-goleadores-premier .cartas-goleadores-premier, main .sectionmain-premierleague .mejores-goleadores-premier, main .sectionmain-premierleague .video-premierleague, footer .footer .footer-social .footer-social-link, footer .footer .footer-social, footer .footer .footer-icon, footer .footer .footer-copyright, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi,
+main .sectionmain-laliga .seccion-equipos .equipos, main .sectionmain-laliga .seccion-equipos, main .sectionmain-laliga .secciontitulos, main .sectionmain-laliga .equipos-españoles .equipo-español, main .sectionmain-laliga .equipos-españoles, main .sectionmain-laliga .seccion-equipos-ganadores-internacional, main .sectionmain-laliga .div-champions-madrid, main .sectionmain-laliga .titulo-p-paraque-laliga, main .sectionmain-seriea .seccion-equipos .equipos, main .sectionmain-seriea .seccion-equipos, main .sectionmain-seriea .secciontitulos, main .sectionmain-seriea .titulo-ganados-seriea, main .sectionmain-seriea .titulo-p-general-seriea .para-que-seriea, main .sectionmain-seriea .titulo-p-general-seriea, main .sectionmain-copadelaliga .seccion-equipos .grupo-b, main .sectionmain-copadelaliga .seccion-equipos .equipos, main .sectionmain-copadelaliga .seccion-equipos, main .sectionmain-copadelaliga .secciontitulos, main .sectionmain-copadelaliga .goleadores-historicos-lfp .titulo-parrafo-lfp, main .sectionmain-copadelaliga .goleadores-historicos-lfp, main .sectionmain-copadelaliga .titulos-goleadores-historicos-lfp, main .sectionmain-copadelaliga .video-copadelaliga, main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier, main .sectionmain-premierleague .seccion-equipos-premierleague, main .sectionmain-premierleague .h1-premierleague-anual, main .sectionmain-premierleague .mejores-goleadores-premier .cartas-goleadores-premier, main .sectionmain-premierleague .mejores-goleadores-premier, main .sectionmain-premierleague .video-premierleague, footer .footer .footer-social .footer-social-link, footer .footer .footer-social, footer .footer .footer-icon, footer .footer .footer-copyright, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-messi,
 main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-mbappe,
 main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos .seccion-4-p-haaland, main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos, main .seccion-4-quien-deberia .seccion-4-foto-p, main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-4-quien-deberia, main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion, main .seccion-3-cartas .div-3-mejores-ventas, main .seccion-3-cartas .seccion-3-h2, main .seccion-2-mejores-goleadores .seccion-2-h2, main .seccion-2-mejores-goleadores {
   display: flex;
@@ -15,7 +15,7 @@ main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-3-cartas .seccion-3-h
 .torneos-ganados-seriea .caja-seriea:nth-child(1) {
   width: 11.6%;
   height: 70px;
-  background-image: url("../img/maximos-ganadores-seriea/imagen-8.png");
+  background-image: url("../img/maximos-ganadores-seriea/imagen-8.webp");
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -25,7 +25,7 @@ main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-3-cartas .seccion-3-h
 .torneos-ganados-seriea .caja-seriea:nth-child(2) {
   width: 23.2%;
   height: 70px;
-  background-image: url("../img/maximos-ganadores-seriea/imagen-7.png");
+  background-image: url("../img/maximos-ganadores-seriea/imagen-7.webp");
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -35,7 +35,7 @@ main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-3-cartas .seccion-3-h
 .torneos-ganados-seriea .caja-seriea:nth-child(3) {
   width: 34.8%;
   height: 70px;
-  background-image: url("../img/maximos-ganadores-seriea/imagen-6.png");
+  background-image: url("../img/maximos-ganadores-seriea/imagen-6.webp");
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -45,7 +45,7 @@ main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-3-cartas .seccion-3-h
 .torneos-ganados-seriea .caja-seriea:nth-child(4) {
   width: 46.4%;
   height: 70px;
-  background-image: url("../img/maximos-ganadores-seriea/imagen-5.png");
+  background-image: url("../img/maximos-ganadores-seriea/imagen-5.webp");
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -55,7 +55,7 @@ main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-3-cartas .seccion-3-h
 .torneos-ganados-seriea .caja-seriea:nth-child(5) {
   width: 58%;
   height: 70px;
-  background-image: url("../img/maximos-ganadores-seriea/imagen-4.png");
+  background-image: url("../img/maximos-ganadores-seriea/imagen-4.webp");
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -65,7 +65,7 @@ main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-3-cartas .seccion-3-h
 .torneos-ganados-seriea .caja-seriea:nth-child(6) {
   width: 69.6%;
   height: 70px;
-  background-image: url("../img/maximos-ganadores-seriea/imagen-3.png");
+  background-image: url("../img/maximos-ganadores-seriea/imagen-3.webp");
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -75,7 +75,7 @@ main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-3-cartas .seccion-3-h
 .torneos-ganados-seriea .caja-seriea:nth-child(7) {
   width: 81.2%;
   height: 70px;
-  background-image: url("../img/maximos-ganadores-seriea/imagen-2.png");
+  background-image: url("../img/maximos-ganadores-seriea/imagen-2.webp");
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -85,7 +85,7 @@ main .seccion-4-quien-deberia .seccion-4-h2, main .seccion-3-cartas .seccion-3-h
 .torneos-ganados-seriea .caja-seriea:nth-child(8) {
   width: 92.8%;
   height: 70px;
-  background-image: url("../img/maximos-ganadores-seriea/imagen-1.png");
+  background-image: url("../img/maximos-ganadores-seriea/imagen-1.webp");
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -318,8 +318,10 @@ main .sectionmain-premierleague .video-premierleague {
 }
 main .sectionmain-premierleague .video-premierleague .titulo-videopremierleague {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke: 0.7px white;
   padding-top: 20px;
-  -webkit-text-stroke: 1px white;
+  color: black;
+  font-size: 70px;
 }
 main .sectionmain-premierleague .video-premierleague .parrafo-videopremierleague {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -339,7 +341,7 @@ main .sectionmain-premierleague .goleadores-premier-h1 {
   justify-content: center;
   padding-top: 100px;
   padding-bottom: 30px;
-  font-size: 40px;
+  font-size: 30px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   -webkit-text-stroke: 1px white;
 }
@@ -403,6 +405,7 @@ main .sectionmain-premierleague .seccion-equipos-premierleague {
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier {
   width: 80%;
   flex-wrap: wrap;
+  gap: 50px;
 }
 main .sectionmain-premierleague .seccion-equipos-premierleague .equipos-premier img {
   width: 100%;
@@ -502,9 +505,11 @@ main .sectionmain-copadelaliga .video-copadelaliga {
   flex-direction: column;
 }
 main .sectionmain-copadelaliga .video-copadelaliga .titulo-copadelaliga {
-  padding-top: 20px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 0.7px white;
+  padding-top: 20px;
+  color: black;
+  font-size: 70px;
 }
 main .sectionmain-copadelaliga .video-copadelaliga .parrafo-videocopadelaliga {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -549,11 +554,15 @@ main .sectionmain-copadelaliga .secciontitulos {
   padding-top: 30px;
   -webkit-text-stroke: 1px white;
 }
-main .sectionmain-copadelaliga .secciontitulos .h1-copadelaliga {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}
 main .sectionmain-copadelaliga .secciontitulos .h2-copadelaliga {
+  font-size: 40px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke: 1px white;
+  padding-bottom: 30px;
+}
+main .sectionmain-copadelaliga .secciontitulos .h3-copadelaliga {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
 }
 main .sectionmain-copadelaliga .seccion-equipos {
   flex-wrap: wrap;
@@ -690,9 +699,10 @@ main .sectionmain-seriea .titulo-p-general-seriea {
 }
 main .sectionmain-seriea .titulo-p-general-seriea .titulo-seriea-general {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke: 0.7px white;
   padding-top: 20px;
   color: black;
-  -webkit-text-stroke: 1px white;
+  font-size: 70px;
 }
 main .sectionmain-seriea .titulo-p-general-seriea .para-que-seriea {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -754,7 +764,7 @@ main .sectionmain-seriea .secciontitulos {
   padding-top: 30px;
 }
 main .sectionmain-seriea .secciontitulos .h1-seriea {
-  font-size: 30px;
+  font-size: 40px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   -webkit-text-stroke: 1px white;
 }
@@ -867,7 +877,7 @@ main .sectionmain-laliga .titulo-p-paraque-laliga .titulo-laliga {
   -webkit-text-stroke: 0.7px white;
   padding-top: 20px;
   color: black;
-  font-size: 100px;
+  font-size: 70px;
 }
 main .sectionmain-laliga .titulo-p-paraque-laliga .p-laliga {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -971,12 +981,13 @@ main .sectionmain-laliga .seccion-equipos {
 main .sectionmain-laliga .seccion-equipos .equipos {
   width: 100%;
   flex-wrap: wrap;
+  gap: 130px;
 }
 main .sectionmain-laliga .seccion-equipos .equipos img {
   width: 100%;
 }
 main .sectionmain-laliga .seccion-equipos .equipos .equipo {
-  width: 300px;
+  width: 400px;
   box-shadow: 0 0 20px rgb(0, 0, 0);
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
@@ -1061,23 +1072,27 @@ main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .perdid
 
 /* RESPONSIVE DE CELULAR */
 @media (min-width: 320px) and (max-width: 480px) {
+  main {
+    /*PREMIER LEAGUE MOBILE*/
+    /*COPA DE LA LIGA*/
+    /* SERIE A */
+    /* LA LIGA */
+  }
   main .seccion-1-para-que {
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     background-color: #cdffff;
     flex-direction: column;
   }
   main .seccion-1-para-que .seccion-1-h1-p {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
   }
   main .seccion-1-para-que .seccion-1-h1-p .seccion-1-parrafo {
     padding-top: 10px;
-    width: 400px;
+    width: 90%;
+    margin-left: 20px;
     font-size: 15px;
   }
   main .seccion-1-para-que .seccion-1-h1-p .seccion-1-foto {
@@ -1090,8 +1105,11 @@ main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .perdid
     flex-direction: column;
     text-align: center;
   }
+  main .seccion-2-mejores-goleadores .seccion-2-h2 {
+    font-size: 20px;
+  }
   main .seccion-2-mejores-goleadores .cristiano-foto, main .seccion-2-mejores-goleadores .messi-foto, main .seccion-2-mejores-goleadores .bican-foto, main .seccion-2-mejores-goleadores .pele-foto, main .seccion-2-mejores-goleadores .romario-foto, main .seccion-2-mejores-goleadores .muller-foto, main .seccion-2-mejores-goleadores .puskas-foto, main .seccion-2-mejores-goleadores .jones-foto, main .seccion-2-mejores-goleadores .lewan-foto, main .seccion-2-mejores-goleadores .eusebio-foto {
-    height: 250px;
+    height: 280px;
   }
   main .seccion-3-cartas .seccion-3-h2 {
     font-size: 20px;
@@ -1104,6 +1122,7 @@ main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .perdid
     gap: 10px;
   }
   main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-ventas {
+    display: flex;
     width: 90%;
   }
   main .seccion-3-cartas .div-3-mejores-ventas .cartas-alineacion .grilla .cartas-ventas .texto-ventas {
@@ -1126,6 +1145,7 @@ main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .perdid
     max-width: 100%;
     height: 80%;
     padding: 10px 0;
+    border-radius: 15px;
   }
   main .seccion-4-quien-deberia .seccion-4-foto-p .columnas-parrafos {
     display: flex;
@@ -1139,39 +1159,116 @@ main .sectionmain-laliga .seccion-equipos .equipos .equipo .texto-equipo .perdid
     padding-top: 20px;
     justify-content: center;
     font-size: 14px;
-    text-align: center;
-    width: 400px;
+    text-align: justify;
+    width: 350px;
   }
-  main .sectionmain-premierleague .secciontitulos-premierleague .h1-premierleague {
-    font-size: 20px;
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
+  main .sectionmain-premierleague .video-premierleague {
     text-align: center;
   }
-  main .sectionmain-copadelaliga .secciontitulos .h1-copadelaliga {
-    font-size: 20px;
-    padding-top: 10px;
+  main .sectionmain-premierleague .video-premierleague .parrafo-videopremierleague {
+    width: 80%;
+  }
+  main .sectionmain-premierleague .video-premierleague .video-yt-premier {
+    width: 320px;
+    height: 300px;
+    border-radius: 40px;
+  }
+  main .sectionmain-premierleague .goleadores-premier-h1 {
+    text-align: center;
+  }
+  main .sectionmain-premierleague .mejores-goleadores-premier .cartas-goleadores-premier .grid-goleadores {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+  }
+  main .sectionmain-premierleague .h1-premierleague-anual {
+    text-align: center;
+    padding-top: 100px;
+  }
+  main .sectionmain-copadelaliga .video-copadelaliga .titulo-copadelaliga {
+    text-align: center;
+    font-size: 40px;
+  }
+  main .sectionmain-copadelaliga .video-copadelaliga .parrafo-videocopadelaliga {
+    width: 90%;
+  }
+  main .sectionmain-copadelaliga .video-copadelaliga .video-yt-copadelaliga {
+    width: 90%;
+    height: 350px;
+  }
+  main .sectionmain-copadelaliga .titulos-goleadores-historicos-lfp {
+    text-align: center;
+  }
+  main .sectionmain-copadelaliga .goleadores-historicos-lfp {
     display: flex;
     justify-content: center;
-    text-align: center;
+    flex-direction: column;
+  }
+  main .sectionmain-copadelaliga .goleadores-historicos-lfp .titulo-parrafo-lfp {
+    width: 100%;
+  }
+  main .sectionmain-copadelaliga .goleadores-historicos-lfp .titulo-parrafo-lfp .nombre-goleadores-historicos-lfp {
+    font-size: 30px;
+  }
+  main .sectionmain-copadelaliga .goleadores-historicos-lfp .fotos-goleadores-historicos-lfp {
+    width: 90%;
   }
   main .sectionmain-copadelaliga .secciontitulos .h2-copadelaliga {
-    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  main .sectionmain-seriea .titulo-p-general-seriea .para-que-seriea {
+    width: 90%;
+    text-align: justify;
+  }
+  main .sectionmain-seriea .titulo-p-general-seriea .foto-seriea-titulo {
+    width: 300px;
+  }
+  main .sectionmain-seriea .titulo-ganados-seriea {
+    text-align: center;
+  }
+  main .sectionmain-seriea .torneos-ganados-seriea {
+    padding-left: 10px;
   }
   main .sectionmain-seriea .secciontitulos .h1-seriea {
-    font-size: 20px;
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
     text-align: center;
+    font-size: 38px;
+    padding-top: 30px;
   }
-  main .sectionmain-laliga .secciontitulos .h1-laliga {
-    font-size: 20px;
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
+  main .sectionmain-laliga .titulo-p-paraque-laliga .titulo-laliga {
+    font-size: 50px;
+  }
+  main .sectionmain-laliga .titulo-p-paraque-laliga .p-laliga {
+    width: 90%;
+    text-align: justify;
+  }
+  main .sectionmain-laliga .div-champions-madrid .titulo-champions-madrid {
     text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+  main .sectionmain-laliga .div-champions-madrid .video-champions-madrid {
+    width: 90%;
+    height: 300px;
+  }
+  main .sectionmain-laliga .seccion-equipos-ganadores-internacional .titulo-equipos-españoles {
+    text-align: center;
+    font-size: 30px;
+  }
+  main .sectionmain-laliga .equipos-españoles .grilla-española {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  main .sectionmain-laliga .equipos-españoles .grilla-española .dos-fotos-españolas {
+    padding-bottom: 15px;
+  }
+  main .sectionmain-laliga .secciontitulos .h2-laliga {
+    text-align: center;
+    font-size: 60px;
   }
   footer .footer {
     background-color: rgb(50, 49, 49);
