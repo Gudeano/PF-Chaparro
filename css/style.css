@@ -769,7 +769,7 @@ main .sectionmain-seriea .seccion-equipos .equipos img {
   width: 100%;
 }
 main .sectionmain-seriea .seccion-equipos .equipos .equipo {
-  width: 300px;
+  width: 400px;
   box-shadow: 0 0 20px rgb(0, 0, 0);
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
@@ -867,6 +867,7 @@ main .sectionmain-laliga .titulo-p-paraque-laliga .titulo-laliga {
   -webkit-text-stroke: 0.7px white;
   padding-top: 20px;
   color: black;
+  font-size: 100px;
 }
 main .sectionmain-laliga .titulo-p-paraque-laliga .p-laliga {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -882,10 +883,11 @@ main .sectionmain-laliga .div-champions-madrid .titulo-champions-madrid {
   color: black;
   -webkit-text-stroke: 0.7px white;
   padding-top: 50px;
+  font-size: 40px;
 }
 main .sectionmain-laliga .div-champions-madrid .video-champions-madrid {
-  width: 50%;
-  height: 400px;
+  width: 78%;
+  height: 700px;
   box-shadow: 0 0 20px black;
   border-radius: 30px;
 }
@@ -895,16 +897,24 @@ main .sectionmain-laliga .seccion-equipos-ganadores-internacional .titulo-equipo
   padding-top: 60px;
   -webkit-text-stroke: 0.7px white;
   padding-bottom: 20px;
+  font-size: 40px;
 }
 main .sectionmain-laliga .equipos-españoles {
   gap: 20px;
 }
+main .sectionmain-laliga .equipos-españoles .grilla-española {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
 main .sectionmain-laliga .equipos-españoles .equipo-español {
-  gap: 20px;
+  gap: 110px;
 }
 main .sectionmain-laliga .equipos-españoles .equipo-español .dos-fotos-españolas {
   position: relative;
-  width: 250px;
+  width: 252px;
   transition: all 0.3s ease;
 }
 main .sectionmain-laliga .equipos-españoles .equipo-español .dos-fotos-españolas .equipo-hover-españoles:first-child {
@@ -950,15 +960,16 @@ main .sectionmain-laliga .secciontitulos {
   padding-top: 30px;
 }
 main .sectionmain-laliga .secciontitulos .h2-laliga {
-  font-size: 30px;
+  font-size: 60px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   -webkit-text-stroke: 0.7px white;
+  padding-top: 100px;
 }
 main .sectionmain-laliga .seccion-equipos {
   padding-top: 20px;
 }
 main .sectionmain-laliga .seccion-equipos .equipos {
-  width: 70%;
+  width: 100%;
   flex-wrap: wrap;
 }
 main .sectionmain-laliga .seccion-equipos .equipos img {
