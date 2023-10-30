@@ -8,6 +8,18 @@
             background-position: center;
             z-index: 1;
             background-color: map-get($colores-seriea, $i);
+            @if $i == 7 or $i == 6 {
+                width: 70.2%;
+            }
+            @else if $i == 4 or $i == 3 or $i == 2 {
+                width: 35%;
+            }
+            @if $i == 5 {
+                width: 40%;
+            }
+            @if $i == 1 {
+                width: 20%;
+            }
         }   
     }
 }

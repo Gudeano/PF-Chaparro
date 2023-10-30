@@ -1,4 +1,7 @@
 main {
+
+    /*SECCION PARA QUE VA A SER LA PAGINA*/
+
     .seccion-1-para-que {
         @include flex(flex,row,center,center);
         background-color: #cdffff;
@@ -7,6 +10,7 @@ main {
             text-align: center;
             padding-top: 30px;
             .seccion-1-titulo {
+                color: $titulos-index;
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             }
             .seccion-1-parrafo {
@@ -14,6 +18,7 @@ main {
                 font-size: 20px;
                 padding-top: 10px;
                 text-align: justify;
+                font-weight: bold;
             }
             .seccion-1-foto {
                 height: 600px;
@@ -30,6 +35,7 @@ main {
             padding-bottom: 10px;
             font-family: Forque;
             @extend %flex-center;
+            color: $titulos-index;
         }
         .cristiano-foto,
         .messi-foto,
@@ -50,9 +56,9 @@ main {
             font-family: Forque;
             @extend %font;
             @extend %flex-center;
-            color: rgb(0, 0, 0);
             margin: auto;
             background-color: #cdffff;
+            color: $titulos-index;
         }
         .div-3-mejores-ventas {
             background-color: #cdffff;
@@ -120,7 +126,7 @@ main {
             font-family: Forque;
             @extend %flex-center;
             text-align: center;
-            color: rgb(0, 0, 0);
+            color: $titulos-index;
             margin: auto;
             padding-bottom: 10px;
             background-color: #cdffff;

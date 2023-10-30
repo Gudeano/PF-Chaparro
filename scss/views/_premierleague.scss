@@ -5,22 +5,29 @@ main{
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        .video-premierleague {
+        .premierleague-para-que {
             @extend %flex-center;
             flex-direction: column;
-            .titulo-videopremierleague {
+            .titulo-paraque-premier {
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                 -webkit-text-stroke: 0.7px white;
                 padding-top: 20px;
                 color: black;
                 font-size: 70px;
             }
-            .parrafo-videopremierleague {
+            .parrafo-paraque-premier {
                 font-family:Verdana, Geneva, Tahoma, sans-serif;
                 text-align: center;
                 width: 50%;
                 font-weight: 800;
                 padding-top: 20px;
+            }
+            .titulo-videopremierleague {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                -webkit-text-stroke: 0.7px white;
+                padding-top: 20px;
+                color: black;
+                font-size: 40px;
             }
             .video-yt-premier {
                 height: 500px;

@@ -30,6 +30,7 @@
       text-align: center;
       .seccion-2-h2 {
         font-size: 20px;
+        padding-top: 20px;
       }
       .cristiano-foto, .messi-foto, .bican-foto, .pele-foto, .romario-foto, .muller-foto, .puskas-foto, .jones-foto, .lewan-foto, .eusebio-foto {
         height: 280px;
@@ -38,7 +39,7 @@
     .seccion-3-cartas{
       .seccion-3-h2 {
         font-size: 20px;
-        padding: 10px;
+        padding-top: 30px;
       }
       .div-3-mejores-ventas{
         .cartas-alineacion{
@@ -64,7 +65,7 @@
       justify-content: center;
       align-items: center;
       .seccion-4-h2 {
-        font-size: 20px;
+        font-size: 26px;
       }
       .seccion-4-foto-p {
         display: flex;
@@ -84,7 +85,7 @@
             column-count: 1;
             padding-top: 20px;
             justify-content: center;
-            font-size: 14px;
+            font-size: 19px;
             text-align: justify;
             width: 350px;
           }
@@ -95,10 +96,16 @@
     /*PREMIER LEAGUE MOBILE*/
 
     .sectionmain-premierleague {
-      .video-premierleague {
+      .premierleague-para-que {
         text-align: center;
-        .parrafo-videopremierleague {
+        .titulo-paraque-premier {
+          font-size: 50px;
+        }
+        .parrafo-paraque-premier {
           width: 80%;
+        }
+        .titulo-videopremierleague {
+          font-size: 25px;
         }
         .video-yt-premier {
           width: 320px;
@@ -108,6 +115,7 @@
       }
       .goleadores-premier-h1 {
         text-align: center;
+        padding-top: 60px;
       }
       .mejores-goleadores-premier {
         .cartas-goleadores-premier {
@@ -215,7 +223,7 @@
           padding-left: 10px;
         }
         .secciontitulos {
-          .h1-seriea {
+          .h2-seriea {
             text-align: center;
             font-size: 38px;
             padding-top: 30px;

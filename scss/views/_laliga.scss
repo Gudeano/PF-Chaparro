@@ -6,6 +6,8 @@ main {
         background-repeat: no-repeat;
         width: 100%;
 
+        /*SECCION PARA QUE VA A SER LA PAGINA*/
+
         .titulo-p-paraque-laliga {
             @extend %flex-center;
             flex-direction: column;
